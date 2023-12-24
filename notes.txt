@@ -1,0 +1,6 @@
+          {/* home - image and cta, sectors, medtech market impact, industry updates, what we work on, partners and affiliates, testimonials, sign up process */}
+          {/* about us - our leadership (executive management team), committees, mission and vision, members, partners, contact us*/}
+          {/* about the industry - what is medical technology, value of medical technology, attach PPB guidelines*/}
+          {/* what we do - regulatory Ethical Practices and Patient Safety, Regulatory framework and strengthening, Advocacy and Compliance, Representation of Member Interests, Harmonization of Standards, Education and Training Programs, Networking and Collaboration*/}
+          {/* events - all events, online, in-person */}
+          {/* blog - */}

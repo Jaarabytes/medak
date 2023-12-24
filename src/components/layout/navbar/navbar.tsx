@@ -1,30 +1,32 @@
+import AppLogo from "@/components/app-logo";
 import Image from "next/image";
 import Link from "next/link";
+import NavLink from "./nav-link";
+import MobileMenu from "./mobile-menu";
 
 const Navbar = () => {
   return (
-    <div className="bg-gray-100 shadow-lg py-6">
+    <div className=" shadow border-b py-3">
       <div className="container mx-auto flex justify-between items-center">
         {/* logo */}
         <Link href={"/"}>
-          <Image
-            src="/logos/medak-logo.png"
-            width={100}
-            height={20}
-            alt="logo"
-          />
+          <AppLogo />
         </Link>
 
-        {/* links */}
-        <div>
-          links
-          {/* home - image and cta, sectors, medtech market impact, industry updates, what we work on, partners and affiliates, testimonials, sign up process */}
-          {/* about us - our leadership (executive management team), committees, mission and vision, members, partners, contact us*/}
-          {/* about the industry - what is medical technology, value of medical technology, attach PPB guidelines*/}
-          {/* what we do - regulatory Ethical Practices and Patient Safety, Regulatory framework and strengthening, Advocacy and Compliance, Representation of Member Interests, Harmonization of Standards, Education and Training Programs, Networking and Collaboration*/}
-          {/* events - all events, online, in-person */}
-          {/* blog - */}
-        </div>
+        <nav className="flex items-center space-x-4">
+          <ul className="hidden md:flex space-x-2 ">
+            <li>
+              <NavLink href="/">home</NavLink>
+            </li>
+            <li>
+              <NavLink href="/">about</NavLink>
+            </li>
+            <li>
+              <NavLink href="/">contact us</NavLink>
+            </li>
+          </ul>
+          <MobileMenu />
+        </nav>
       </div>
     </div>
   );
