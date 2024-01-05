@@ -3,6 +3,7 @@ import CtaOne from "@/components/sections/cta-one";
 import CtaTwo from "@/components/sections/cta-two";
 import Events from "@/components/sections/events";
 import Hero from "@/components/sections/hero";
+import MembersAndPartners from "@/components/sections/members-and-partners";
 import Resources from "@/components/sections/resources";
 import Image from "next/image";
 
@@ -40,6 +41,7 @@ export default function Home() {
         imageURL={"/images/imageone.jpg"}
       />
       <Resources />
+      <MembersAndPartners />
       <CtaTwo
         title={" Lorem ipsum dolor sit amet consectetur adipisicing elit."}
         subTitle={"subTitle"}

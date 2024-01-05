@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
+import { Poppins, Nunito } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/navbar/navbar";
 import Footer from "@/components/layout/footer/footer";
@@ -8,6 +8,12 @@ const poppins = Poppins({
   subsets: ["latin"],
 
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+});
+
+const nunito = Nunito({
+  subsets: ["latin"],
+
+  weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
@@ -22,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={(nunito.className, "relative")}>
         <Navbar />
         {children}
         <Footer />

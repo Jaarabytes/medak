@@ -11,11 +11,11 @@ const SingleEventCard = ({
   description: string;
 }) => {
   return (
-    <div className="group">
+    <div className="group hover:shadow-lg py-2 pl-2">
       <CardDescription className="capitalize text-foreground">
         {category}
       </CardDescription>
-      <CardTitle className="text-base text-primary group-hover:underline">
+      <CardTitle className="text-base text-primary group-hover:underline mb-2">
         {title}
       </CardTitle>
       <CardDescription>{description}</CardDescription>
