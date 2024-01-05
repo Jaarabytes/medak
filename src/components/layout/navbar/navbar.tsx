@@ -34,7 +34,17 @@ const Navbar = () => {
                 ]}
               />
             </li>
-
+            <li>
+              <NavDropdown
+                title="about us"
+                links={[
+                  {
+                    name: "about us",
+                    href: "/",
+                  },
+                ]}
+              />
+            </li>
             <li>
               <NavLink href="/">About the industry (FAQ's)</NavLink>
             </li>
