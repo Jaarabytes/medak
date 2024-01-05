@@ -24,14 +24,14 @@ const NavDropdown = ({
     <>
       <DropdownMenu>
         <DropdownMenuTrigger>
-          <button
+          <div
             className={cn(
               "",
               "hover:underline uppercase font-bold text-sm hover:text-primary"
             )}
           >
             {title}
-          </button>
+          </div>
         </DropdownMenuTrigger>
         <DropdownMenuContent>
           {links.map((link, index) => (
