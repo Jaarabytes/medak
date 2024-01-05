@@ -29,7 +29,7 @@ function MobileMenu() {
       }}
     >
       <SheetTrigger asChild>
-        <button className="hover:text-primary">
+        <button className="hover:text-primary md:hidden">
           <LuMenu />
         </button>
       </SheetTrigger>

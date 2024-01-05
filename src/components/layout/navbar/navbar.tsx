@@ -19,9 +19,6 @@ const Navbar = () => {
             <li>
               <NavLink href="/">home</NavLink>
             </li>
-            <li>
-              <NavLink href="/">about us </NavLink>
-            </li>
 
             <li>
               <NavDropdown
@@ -31,28 +28,59 @@ const Navbar = () => {
                     name: "about us",
                     href: "/",
                   },
-                ]}
-              />
-            </li>
-            <li>
-              <NavDropdown
-                title="about us"
-                links={[
                   {
-                    name: "about us",
+                    name: "our leadership",
+                    href: "/",
+                  },
+                  {
+                    name: "members",
+                    href: "/",
+                  },
+                  {
+                    name: "sectors",
+                    href: "/",
+                  },
+                  {
+                    name: "join medak",
                     href: "/",
                   },
                 ]}
               />
             </li>
+
             <li>
-              <NavLink href="/">About the industry (FAQ's)</NavLink>
+              <NavLink href="/">About the industry</NavLink>
             </li>
             <li>
               <NavLink href="/">what we do</NavLink>
             </li>
+
             <li>
-              <NavLink href="/">industry updates</NavLink>
+              <NavDropdown
+                title="industry updates"
+                links={[
+                  {
+                    name: "news and events ",
+                    href: "/",
+                  },
+                  {
+                    name: "blog",
+                    href: "/",
+                  },
+                  {
+                    name: "latest resources",
+                    href: "/",
+                  },
+                  {
+                    name: "sectors",
+                    href: "/",
+                  },
+                  {
+                    name: "join medak",
+                    href: "/",
+                  },
+                ]}
+              />
             </li>
           </ul>
           <MobileMenu />
