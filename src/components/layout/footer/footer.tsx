@@ -55,7 +55,7 @@ const Footer = () => {
     <footer>
       {/* top section */}
       <div className="bg-primary">
-        <Container className=" py-20 flex flex-col md:flex-row space-y-8 md:space-y-0 items-center justify-between text-white">
+        <Container className=" py-20 flex flex-col md:flex-row space-y-8 md:space-y-0 md:items-center justify-between text-white">
           <div>
             <div className="mb-4">
               <AppLogo />
@@ -141,7 +141,7 @@ const Footer = () => {
 
       {/* bottom section with social links */}
       <div className="bg-primary/90 py-4 text-white">
-        <Container className="flex flex-col md:flex-row justify-between items-center">
+        <Container className="flex flex-col md:flex-row justify-between md:items-center">
           {/* links and copyright */}
           <div>
             <h6 className="text-sm font-semibold">

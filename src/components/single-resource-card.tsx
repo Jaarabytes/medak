@@ -23,7 +23,9 @@ const SingleResourceCard = ({
           </AspectRatio>
         </div>
         <div className="flex-1 space-y-3 py-2 pr-2">
-          <CardDescription>{category}</CardDescription>
+          <CardDescription className="font-semibold capitalize">
+            {category}
+          </CardDescription>
           <CardTitle className="capitalize">{title}</CardTitle>
           <CardDescription>{description}</CardDescription>
         </div>

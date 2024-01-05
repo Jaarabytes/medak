@@ -21,7 +21,7 @@ const NavLink = ({
       href={href}
       className={cn(
         isActive && "text-primary",
-        "hover:underline capitalize font-semibold text-sm hover:text-primary",
+        "hover:underline uppercase font-bold text-sm hover:text-primary",
         className
       )}
     >

@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import NavLink from "./nav-link";
 import MobileMenu from "./mobile-menu";
+import NavDropdown from "./nav-dropdown";
 
 const Navbar = () => {
   return (
@@ -14,15 +15,26 @@ const Navbar = () => {
         </Link>
 
         <nav className="flex items-center space-x-4">
-          <ul className="hidden md:flex space-x-2 ">
+          <ul className="hidden md:flex space-x-3">
             <li>
               <NavLink href="/">home</NavLink>
             </li>
             <li>
-              <NavLink href="/">about</NavLink>
+              <NavLink href="/">about us </NavLink>
+            </li>
+
+            <li>
+              <NavDropdown />
+            </li>
+
+            <li>
+              <NavLink href="/">About the industry (FAQ's)</NavLink>
             </li>
             <li>
-              <NavLink href="/">contact us</NavLink>
+              <NavLink href="/">what we do</NavLink>
+            </li>
+            <li>
+              <NavLink href="/">industry updates</NavLink>
             </li>
           </ul>
           <MobileMenu />

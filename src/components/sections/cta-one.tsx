@@ -17,6 +17,8 @@ const CtaOne = ({
   imageURL,
   onClick,
   left,
+  bgColor,
+  btnStyles,
 }: {
   title: string;
   subTitle: string;
@@ -25,6 +27,8 @@ const CtaOne = ({
   imageURL: string;
   left?: boolean;
   onClick?: () => void;
+  bgColor?: string;
+  btnStyles?: string;
 }) => {
   return (
     <section className="">
@@ -32,7 +36,8 @@ const CtaOne = ({
         <div className="grid grid-cols-12">
           <div
             className={cn(
-              "col-span-12 md:col-span-6 bg-red-400 relative",
+              "col-span-12 md:col-span-6  relative",
+
               left && "md:order-2"
             )}
           >
@@ -58,6 +63,7 @@ const CtaOne = ({
           <div
             className={cn(
               " col-span-12 md:col-span-6 bg-primary py-10 md:py-20 px-6 text-white",
+              bgColor,
               left && "md:order-1"
             )}
           >
@@ -69,7 +75,7 @@ const CtaOne = ({
             <div className="mt-8">
               {link && (
                 <Link href={link}>
-                  <Button variant={"destructive"}>
+                  <Button variant={"destructive"} className={cn(btnStyles)}>
                     Click me
                     <div className="ml-1">
                       <LuArrowRight />
@@ -78,7 +84,11 @@ const CtaOne = ({
                 </Link>
               )}
               {onClick && (
-                <Button onClick={onClick} variant={"destructive"}>
+                <Button
+                  onClick={onClick}
+                  variant={"destructive"}
+                  className={cn(btnStyles)}
+                >
                   Click me
                   <div className="ml-1">
                     <LuArrowRight />
