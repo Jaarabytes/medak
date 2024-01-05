@@ -24,7 +24,15 @@ const Navbar = () => {
             </li>
 
             <li>
-              <NavDropdown />
+              <NavDropdown
+                title="about us"
+                links={[
+                  {
+                    name: "about us",
+                    href: "/",
+                  },
+                ]}
+              />
             </li>
 
             <li>

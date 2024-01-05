@@ -39,11 +39,6 @@ const NavDropdown = ({
               <Link href={link.href}>{link.name}</Link>
             </DropdownMenuLabel>
           ))}
-          <DropdownMenuSeparator />
-          <DropdownMenuItem>Profile</DropdownMenuItem>
-          <DropdownMenuItem>Billing</DropdownMenuItem>
-          <DropdownMenuItem>Team</DropdownMenuItem>
-          <DropdownMenuItem>Subscription</DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
     </>
