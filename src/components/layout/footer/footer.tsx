@@ -64,7 +64,7 @@ const Footer = () => {
               <p className="mb-2">Stay up to date with {siteData.title}.</p>
               <Link href={"/"} className="">
                 <Button variant={"destructive"} className="space-x-2 ">
-                  <span>Subscribe for more updates</span>
+                  <span>Join Us</span>
                   <span>
                     <LuArrowRight />
                   </span>
