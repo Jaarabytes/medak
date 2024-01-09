@@ -13,7 +13,7 @@ export default function Home() {
       <Hero
         link="/"
         text="Bringing innovation to patient care worldwide"
-        imageURL="/images/imageone.jpg"
+        imageURL="/images/horizontal images/MEDICS-LOOKING-AT-AN-X-RAY-IMAGE.jpg"
       />
       <About />
       <CtaOne
