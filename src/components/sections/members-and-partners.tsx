@@ -16,94 +16,94 @@ const MembersAndPartners = () => {
   const members = [
     {
       title: "abbot",
-      imageURL: "/logos/members/Abbott-Logo.png",
+      imageURL: "/logos/members/Abbott-Logo.svg",
     },
     {
       title: "alphamedical manufacturers",
-      imageURL: "/logos/members/alphamedicalmanufacturers-logo.png",
+      imageURL: "/logos/members/alphamedicalmanufacturers-logo.svg",
     },
     {
       title: "amiken limited",
-      imageURL: "/logos/members/amikenltd-logo.png",
+      imageURL: "/logos/members/amikenltd-logo.svg",
     },
     {
       title: "bbraun",
-      imageURL: "/logos/members/bbraun-logo.png",
+      imageURL: "/logos/members/bbraun-logo.svg",
     },
     {
       title: "becton dickinson",
-      imageURL: "/logos/members/Becton-Dickinson-logo.png",
+      imageURL: "/logos/members/Becton-Dickinson-logo.svg",
     },
     {
       title: "F & S",
-      imageURL: "/logos/members/F&S-logo.png",
+      imageURL: "/logos/members/F&S-logo.svg",
     },
     {
       title: "GE Healthcare",
-      imageURL: "/logos/members/GEHealthCare-logo.png",
+      imageURL: "/logos/members/GEHealthCare-logo.svg",
     },
     {
       title: "imperial logistics",
-      imageURL: "/logos/members/imperiallogistics-logo.png",
+      imageURL: "/logos/members/imperiallogistics-logo.svg",
     },
     {
       title: "jeyflex",
-      imageURL: "/logos/members/jeyflex-logo.png",
+      imageURL: "/logos/members/jeyflex-logo.svg",
     },
     {
       title: "JNJ",
-      imageURL: "/logos/members/JNJ-Logo.png",
+      imageURL: "/logos/members/JNJ-Logo.svg",
     },
     {
       title: "kijanimedical",
-      imageURL: "/logos/members/kijanimedical-logo.png",
+      imageURL: "/logos/members/kijanimedical-logo.svg",
     },
     {
       title: "lochlabs limited",
-      imageURL: "/logos/members/lochlabsltdblack-logo.png",
+      imageURL: "/logos/members/lochlabsltdblack-logo.svg",
     },
     {
       title: "meditec systems",
-      imageURL: "/logos/members/meditecsystems-logo.png",
+      imageURL: "/logos/members/meditecsystems-logo.svg",
     },
     {
       title: "medtronic",
-      imageURL: "/logos/members/medtronic-logo.png",
+      imageURL: "/logos/members/Medtronic-Logo.svg",
     },
     {
       title: "meraky healthcare",
-      imageURL: "/logos/members/merakyhealthcare-logo.png",
+      imageURL: "/logos/members/merakyhealthcare--logo.svg",
     },
     {
       title: "roche",
-      imageURL: "/logos/members/roche-logo.png",
+      imageURL: "/logos/members/roche-logo.svg",
     },
     {
       title: "statim pharmaceuticals",
-      imageURL: "/logos/members/statimpharmaceuticalsltf-logo.png",
+      imageURL: "/logos/members/statimpharmaceuticalsltf-logo.svg",
     },
     {
       title: "surgipharm",
-      imageURL: "/logos/members/surgipharm-logo.png",
+      imageURL: "/logos/members/surgipharm-logo.svg",
     },
   ];
 
   const partners = [
     {
       title: "advamed",
-      imageURL: "/logos/partners/advamed-logo.png",
+      imageURL: "/logos/partners/advamed-logo.svg",
     },
     {
       title: "AMDF",
-      imageURL: "/logos/partners/AMDF.png",
+      imageURL: "/logos/partners/AMDF-logo.svg",
     },
     {
       title: "mecomed",
-      imageURL: "/logos/partners/mecomed-logo.png",
+      imageURL: "/logos/partners/mecomed-logo.svg",
     },
     {
       title: "medtech europe",
-      imageURL: "/logos/partners/medtecheurope-logo.png",
+      imageURL: "/logos/partners/medtecheurope-logo.svg",
     },
   ];
   return (
