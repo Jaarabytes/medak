@@ -107,7 +107,7 @@ const MembersAndPartners = () => {
     },
   ];
   return (
-    <section className="bg-muted py-16">
+    <section className="bg-blue-100/50 py-16">
       <Container>
         <h1 className="text-4xl font-bold mb-6">Members and Partners</h1>
         <p className="mb-6 md:max-w-4xl">
@@ -116,58 +116,59 @@ const MembersAndPartners = () => {
           reprehenderit nihil doloribus voluptate quaerat ipsam aliquid ut
           aliquam quis laboriosam ea nemo rerum facilis!
         </p>
-
-        {/* members slider section */}
-        <div>
-          <Swiper
-            slidesPerView={4}
-            spaceBetween={30}
-            pagination={{
-              clickable: true,
-            }}
-            autoplay={{
-              delay: 1000,
-              disableOnInteraction: false,
-            }}
-            modules={[Autoplay]}
-            className="mySwiper"
-          >
-            {members.map((member, index) => (
-              <SwiperSlide key={index} className="bg-white">
-                <ImageContaier
-                  alt={member.title}
-                  ratio={16 / 9}
-                  imageURL={member.imageURL}
-                />
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
-        {/* partners slider section */}
-        <div className="mt-2">
-          <Swiper
-            slidesPerView={4}
-            spaceBetween={30}
-            pagination={{
-              clickable: true,
-            }}
-            autoplay={{
-              delay: 1000,
-              disableOnInteraction: false,
-            }}
-            modules={[Autoplay]}
-            className="mySwiper"
-          >
-            {partners.map((partner, index) => (
-              <SwiperSlide key={index} className="bg-white">
-                <ImageContaier
-                  alt={partner.title}
-                  ratio={16 / 9}
-                  imageURL={partner.imageURL}
-                />
-              </SwiperSlide>
-            ))}
-          </Swiper>
+        <div className="bg-white">
+          {/* members slider section */}
+          <div>
+            <Swiper
+              slidesPerView={4}
+              spaceBetween={30}
+              pagination={{
+                clickable: true,
+              }}
+              autoplay={{
+                delay: 1000,
+                disableOnInteraction: false,
+              }}
+              modules={[Autoplay]}
+              className="mySwiper"
+            >
+              {members.map((member, index) => (
+                <SwiperSlide key={index} className="bg-white">
+                  <ImageContaier
+                    alt={member.title}
+                    ratio={16 / 9}
+                    imageURL={member.imageURL}
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+          {/* partners slider section */}
+          <div className="mt-2">
+            <Swiper
+              slidesPerView={4}
+              spaceBetween={30}
+              pagination={{
+                clickable: true,
+              }}
+              autoplay={{
+                delay: 1000,
+                disableOnInteraction: false,
+              }}
+              modules={[Autoplay]}
+              className="mySwiper"
+            >
+              {partners.map((partner, index) => (
+                <SwiperSlide key={index} className="bg-white">
+                  <ImageContaier
+                    alt={partner.title}
+                    ratio={16 / 9}
+                    imageURL={partner.imageURL}
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
         </div>
       </Container>
     </section>
