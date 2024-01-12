@@ -26,24 +26,24 @@ const Navbar = () => {
                 title="about us"
                 links={[
                   {
-                    name: "about us",
-                    href: "/",
+                    name: "who we are",
+                    href: "/about",
                   },
                   {
                     name: "our leadership",
-                    href: "/",
+                    href: "/about/our-leadership",
                   },
                   {
                     name: "members",
-                    href: "/",
+                    href: "/about/members",
                   },
                   {
                     name: "sectors",
-                    href: "/",
+                    href: "/about/sectors",
                   },
                   {
                     name: "join medak",
-                    href: "/",
+                    href: "/about/join-medak",
                   },
                 ]}
               />

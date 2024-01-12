@@ -9,6 +9,7 @@ import {
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
+import NavLink from "./nav-link";
 
 const NavDropdown = ({
   title,
@@ -35,9 +36,14 @@ const NavDropdown = ({
         </DropdownMenuTrigger>
         <DropdownMenuContent>
           {links.map((link, index) => (
-            <DropdownMenuLabel key={index}>
-              <Link href={link.href}>{link.name}</Link>
-            </DropdownMenuLabel>
+            <DropdownMenuItem key={index} className="capitalize group ">
+              <NavLink
+                className="group-hover:text-primary group-hover:underline"
+                href={link.href}
+              >
+                {link.name}
+              </NavLink>
+            </DropdownMenuItem>
           ))}
         </DropdownMenuContent>
       </DropdownMenu>
