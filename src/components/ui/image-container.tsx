@@ -16,7 +16,7 @@ const ImageContaier = ({
 }) => {
   return (
     <div>
-      <AspectRatio ratio={ratio} className="relative object-contain">
+      <AspectRatio ratio={ratio} className="relative object-contain bg-muted">
         <Image
           alt={alt}
           src={imageURL}
