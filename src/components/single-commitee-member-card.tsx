@@ -2,6 +2,7 @@ import React from "react";
 import ImageContaier from "./ui/image-container";
 import Link from "next/link";
 import slugify from "slugify";
+import { Card, CardTitle } from "./ui/card";
 
 const SingleCommiteeMemberCard = ({
   imageURL,
@@ -15,7 +16,7 @@ const SingleCommiteeMemberCard = ({
   return (
     <>
       {!bio ? (
-        <div className="group">
+        <div className="group  ">
           <div className="">
             <ImageContaier
               ratio={1}
@@ -25,7 +26,7 @@ const SingleCommiteeMemberCard = ({
             />
           </div>
           <div className="mt-3">
-            <h3 className="text-primary font-bold group-hover:underline">
+            <h3 className=" font-semibold group-hover:text-primary transition-all ease-linear">
               {name}
             </h3>
           </div>
@@ -44,7 +45,7 @@ const SingleCommiteeMemberCard = ({
             />
           </div>
           <div className="mt-3">
-            <h3 className="text-primary font-bold group-hover:underline">
+            <h3 className=" font-semibold group-hover:text-primary transition-all ease-linear">
               {name}
             </h3>
           </div>

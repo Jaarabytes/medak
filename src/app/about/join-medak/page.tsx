@@ -1,5 +1,7 @@
 import Container from "@/components/container";
+import SectionHeading from "@/components/section-heading";
 import MiniHero from "@/components/sections/mini-hero";
+import ParagraphSection from "@/components/sections/paragraph";
 import React from "react";
 
 const JoinMedak = () => {
@@ -12,19 +14,21 @@ const JoinMedak = () => {
         }
       />
       <Container className="mb-10">
-        <div className="py-5">
-          Serving Kenya in particular, MEDAK represents more than 20 medical
-          technology manufacturers, their partners, retailers and distributors
-          throughout Africa. MEDAK provides unwavering support to member
-          companies and partners, consistently serving patients who rely on
-          medical technology daily. Check out the benefits of MedTech services
-          and MEDAK membership.
-        </div>
-        <div className="">
-          <h1 className="font-bold text-4xl mb-6 ">Membership benefits</h1>
-          <h1 className="font-bold text-xl mb-3">
-            Types of Membership/ MEDAK categorises members as follows:
-          </h1>
+        <ParagraphSection contained className="">
+          <span>
+            Serving Kenya in particular, MEDAK represents more than 20 medical
+            technology manufacturers, their partners, retailers and distributors
+            throughout Africa. MEDAK provides unwavering support to member
+            companies and partners, consistently serving patients who rely on
+            medical technology daily. Check out the benefits of MedTech services
+            and MEDAK membership.
+          </span>
+        </ParagraphSection>
+        <ParagraphSection contained title="Membership Benefits" className="">
+          <SectionHeading
+            heading=" Types of Membership/ MEDAK categorises members as follows:"
+            small
+          />
           <p>
             The MEDAK Constitution provides for membership to be made up of:
           </p>
@@ -73,7 +77,7 @@ const JoinMedak = () => {
               </p>
             </li>
           </ul>
-        </div>
+        </ParagraphSection>
       </Container>
     </div>
   );

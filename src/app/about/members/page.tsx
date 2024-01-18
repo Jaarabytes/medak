@@ -1,4 +1,5 @@
 import Container from "@/components/container";
+import SectionHeading from "@/components/section-heading";
 import MiniHero from "@/components/sections/mini-hero";
 import ImageContaier from "@/components/ui/image-container";
 import React from "react";
@@ -111,13 +112,13 @@ const MembersPage = () => {
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, iste"
         }
       />
-      <Container className="py-16">
+      <Container className="mb-10">
         <div>
-          <h1 className="text-4xl font-bold">Members</h1>
-          <div className="mt-6 space-y-8">
+          <SectionHeading heading="Our Members" />
+          <div className=" space-y-8">
             {members.map((member, index) => (
               <div key={index}>
-                <h1 className="text-2xl font-semibold mb-6">{member.title}</h1>
+                <SectionHeading heading={member.title} small />
                 <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-10">
                   {member.items.map((item, index) => (
                     <div key={index} className="group">
@@ -130,7 +131,7 @@ const MembersPage = () => {
                         />
                       </div>
                       <div className="mt-3">
-                        <h3 className=" font-semibold group-hover:underline capitalize">
+                        <h3 className=" font-semibold group-hover:underline group-hover:text-primary capitalize">
                           {item.title}
                         </h3>
                         {/* <p className="text-sm font-semibold">{item.position}</p> */}
@@ -159,7 +160,7 @@ const MembersPage = () => {
                     />
                   </div>
                   <div className="mt-3">
-                    <h3 className=" font-semibold group-hover:underline capitalize">
+                    <h3 className=" font-semibold group-hover:underline group-hover:text-primary capitalize">
                       {item.title}
                     </h3>
                     {/* <p className="text-sm font-semibold">{item.position}</p> */}

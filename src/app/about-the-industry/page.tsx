@@ -12,7 +12,7 @@ export default function AboutTheIndustryPage() {
         bgImageURL="/images/imageone.jpg"
       />
       <Container>
-        <ParagraphSection>
+        <ParagraphSection contained>
           <span className="">
             Medical technology is always with you, from the moment you are born,
             from pregnancy tests to ultrasound scans. If you scratched your knee
@@ -22,7 +22,7 @@ export default function AboutTheIndustryPage() {
             possible.
           </span>
         </ParagraphSection>
-        <ParagraphSection>
+        <ParagraphSection contained>
           <span className="">
             Medical technology has come a long way: stents can unclog blood
             vessels, MRI scans can diagnose serious illnesses, and digital
@@ -31,7 +31,7 @@ export default function AboutTheIndustryPage() {
             technology will ensure it&lsquo;s safe and minimally invasive.
           </span>
         </ParagraphSection>
-        <ParagraphSection>
+        <ParagraphSection contained>
           <span className="">
             Medical technology companies are at the centre of revolutionary
             developments that enable people to experience prolonged health,
@@ -46,7 +46,7 @@ export default function AboutTheIndustryPage() {
             more effective treatments.
           </span>
         </ParagraphSection>
-        <ParagraphSection>
+        <ParagraphSection contained>
           <span className="">
             Africa, specifically Kenya, can improve its healthcare
             infrastructure and make quality healthcare more accessible by
@@ -64,6 +64,8 @@ export default function AboutTheIndustryPage() {
       </Container>
 
       <CtaOne
+        bgColor="bg-dark-teal"
+        className="py-8"
         title={" What is a medical device"}
         // subTitle={"subTitle"}
         description={
@@ -71,8 +73,9 @@ export default function AboutTheIndustryPage() {
         }
         imageURL={"/images/imageone.jpg"}
       />
+
       <Container className="mt-4">
-        <ParagraphSection>
+        <ParagraphSection contained>
           <span className="">
             A medical device includes a wide range of items such as instruments,
             apparatuses, appliances, software, implants, in-vitro reagents,
@@ -84,7 +87,7 @@ export default function AboutTheIndustryPage() {
             metabolic action within or on the body.
           </span>
         </ParagraphSection>
-        <ParagraphSection>
+        <ParagraphSection contained>
           <span className="">
             Medical devices such as syringes, wheelchairs, cardiac pacemakers,
             and medical imaging technologies such as MRI, CT, and X-ray machines
@@ -95,7 +98,7 @@ export default function AboutTheIndustryPage() {
             device or enhance its capabilities.
           </span>
         </ParagraphSection>
-        <ParagraphSection>
+        <ParagraphSection contained>
           <span className="">
             Medical devices in Kenya are classified into four categories based
             on their level of risk. Bandages, hospital beds, removable dental
@@ -109,6 +112,7 @@ export default function AboutTheIndustryPage() {
       </Container>
 
       <CtaOne
+        className="py-8"
         title={"What is an in-vitro diagnostic (IVD)?"}
         subTitle={"subTitle"}
         description={
@@ -119,7 +123,7 @@ export default function AboutTheIndustryPage() {
       />
 
       <Container className="mt-4">
-        <ParagraphSection>
+        <ParagraphSection contained>
           <span className="">
             IVDs, or in-vitro diagnostics, are medical devices intended by the
             manufacturer to be used for the purpose of analysing biological
@@ -131,7 +135,7 @@ export default function AboutTheIndustryPage() {
             patients in making well-informed choices regarding healthcare.
           </span>
         </ParagraphSection>
-        <ParagraphSection>
+        <ParagraphSection contained>
           <span className="">
             In-vitro diagnostics (IVDs) comprise a broad spectrum of tests and
             technologies, which include, but are not limited to:
@@ -177,6 +181,7 @@ export default function AboutTheIndustryPage() {
       </Container>
 
       <CtaOne
+        className="py-8"
         title={"What are digital health solutions?"}
         subTitle={"subTitle"}
         description={
@@ -184,8 +189,9 @@ export default function AboutTheIndustryPage() {
         }
         imageURL={"/images/imageone.jpg"}
       />
+
       <Container className="mt-4">
-        <ParagraphSection>
+        <ParagraphSection contained>
           <span>
             Digital health and care utilise information and communication
             technologies (ICTs) to enhance health and lifestyle in various
@@ -196,7 +202,7 @@ export default function AboutTheIndustryPage() {
             industry.
           </span>
         </ParagraphSection>
-        <ParagraphSection>
+        <ParagraphSection contained>
           <span>
             Digital tools play a crucial role in various areas of healthcare
             innovation, offering substantial potential. Data plays a vital role

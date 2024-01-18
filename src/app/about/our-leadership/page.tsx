@@ -1,4 +1,5 @@
 import Container from "@/components/container";
+import SectionHeading from "@/components/section-heading";
 import MiniHero from "@/components/sections/mini-hero";
 import SingleCommiteeMemberCard from "@/components/single-commitee-member-card";
 import SingleLeadershipMemberCard from "@/components/single-leadership-member-card";
@@ -140,9 +141,7 @@ const OurLeadership = () => {
       <MiniHero title={"Our Leadership"} subTitle={"Our Leadership"} />
       <Container>
         <div className="mt-6">
-          <h1 className="text-4xl font-bold mb-6">
-            Secretariate or Management
-          </h1>
+          <SectionHeading heading="Secretariate or Management" />
           <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-10">
             {management.map((item, index) => (
               // <div key={index} className="group">
@@ -173,13 +172,11 @@ const OurLeadership = () => {
         </div>
 
         {/* committees */}
-        <div className="mt-8">
-          <h1 className="text-4xl font-bold mb-6">Committees</h1>
+        <div className="my-10 sm:my-12 md:my-16">
+          <SectionHeading heading="Committes" />
           {committees.map((commitee, index) => (
             <div className="mt-6" key={index}>
-              <h1 className="text-xl font-bold mb-6">
-                {commitee.name} committee
-              </h1>
+              <SectionHeading heading={`${commitee.name} committee`} small />
               <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-10">
                 {commitee.members.map((item, index) => (
                   <SingleCommiteeMemberCard

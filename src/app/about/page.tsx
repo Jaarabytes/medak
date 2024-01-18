@@ -13,7 +13,7 @@ export default function AboutUsPage() {
         bgImageURL="/images/imageone.jpg"
       />
       <Container>
-        <ParagraphSection>
+        <ParagraphSection contained className="">
           <p>
             MEDAK, the industry trade association for medical devices, imaging,
             and diagnostics in Kenya, representing international medical
@@ -22,7 +22,7 @@ export default function AboutUsPage() {
             industry in Kenya and across diverse regions in Afric
           </p>
         </ParagraphSection>
-        <ParagraphSection title={"Mission and Vision"}>
+        <ParagraphSection contained title={"Mission and Vision"}>
           <p>
             MEDAK, the industry trade association for medical devices, imaging,
             and diagnostics in Kenya, representing international medical

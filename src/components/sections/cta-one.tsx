@@ -19,6 +19,7 @@ const CtaOne = ({
   left,
   bgColor,
   btnStyles,
+  className,
 }: {
   title: string;
   subTitle?: string;
@@ -29,9 +30,10 @@ const CtaOne = ({
   onClick?: () => void;
   bgColor?: string;
   btnStyles?: string;
+  className?: string;
 }) => {
   return (
-    <section className="">
+    <section className={cn("bg-muted", className)}>
       <Container>
         <div className="grid grid-cols-12">
           <div

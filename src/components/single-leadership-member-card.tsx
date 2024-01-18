@@ -2,6 +2,7 @@ import React from "react";
 import ImageContaier from "./ui/image-container";
 import Link from "next/link";
 import slugify from "slugify";
+import { CardDescription } from "./ui/card";
 
 const SingleLeadershipMemberCard = ({
   imageURL,
@@ -27,10 +28,10 @@ const SingleLeadershipMemberCard = ({
             />
           </div>
           <div className="mt-3">
-            <h3 className="text-primary font-bold group-hover:underline">
-              {name}
-            </h3>
-            <p className="text-sm font-semibold">{position}</p>
+            <h3 className=" font-bold group-hover:text-primary">{name}</h3>
+            <CardDescription className="text-sm font-semibold">
+              {position}
+            </CardDescription>
           </div>
         </div>
       ) : (
@@ -47,10 +48,10 @@ const SingleLeadershipMemberCard = ({
             />
           </div>
           <div className="mt-3">
-            <h3 className="text-primary font-bold group-hover:underline">
-              {name}
-            </h3>
-            <p className="text-sm font-semibold">{position}</p>
+            <h3 className="font-bold group-hover:text-primary">{name}</h3>
+            <CardDescription className="text-sm font-semibold">
+              {position}
+            </CardDescription>
           </div>
         </Link>
       )}
