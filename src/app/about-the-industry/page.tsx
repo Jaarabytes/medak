@@ -64,7 +64,7 @@ export default function AboutTheIndustryPage() {
       </Container>
 
       <CtaOne
-        bgColor="bg-dark-teal"
+        bgColor="bg-purple"
         className="py-8"
         title={" What is a medical device"}
         // subTitle={"subTitle"}
