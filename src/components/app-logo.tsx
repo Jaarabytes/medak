@@ -2,10 +2,19 @@ import { AspectRatio } from "@radix-ui/react-aspect-ratio";
 import Image from "next/image";
 import React from "react";
 
-const AppLogo = () => {
+const AppLogo = ({ white }: { white?: boolean }) => {
   return (
     <div className="relative">
-      <Image src="/logos/medak-logo.svg" width={60} height={10} alt="logo" />
+      {white ? (
+        <Image
+          src="/logos/medak-logo-white.svg"
+          width={60}
+          height={10}
+          alt="logo"
+        />
+      ) : (
+        <Image src="/logos/medak-logo.svg" width={60} height={10} alt="logo" />
+      )}
     </div>
   );
 };

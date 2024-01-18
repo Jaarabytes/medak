@@ -27,7 +27,7 @@ const CtaTwo = ({
   onClick?: () => void;
 }) => {
   return (
-    <section className="">
+    <section className="py-10">
       <Container>
         <div className="relative md:flex md:flex-col">
           <div className="md:absolute md:top-0 w-full h-full  flex items-center">

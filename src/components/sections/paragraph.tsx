@@ -8,7 +8,7 @@ const ParagraphSection = ({
   children: React.ReactNode;
 }) => {
   return (
-    <div className="py-4">
+    <div className="mb-4">
       {title && <h1 className="text-4xl font-semibold mb-4">{title}</h1>}
       <div className="text-base">{children}</div>
     </div>

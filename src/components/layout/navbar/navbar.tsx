@@ -37,10 +37,10 @@ const Navbar = () => {
                     name: "members",
                     href: "/about/members",
                   },
-                  {
-                    name: "sectors",
-                    href: "/about/sectors",
-                  },
+                  // {
+                  //   name: "sectors",
+                  //   href: "/about/sectors",
+                  // },
                   {
                     name: "join medak",
                     href: "/about/join-medak",
@@ -50,10 +50,23 @@ const Navbar = () => {
             </li>
 
             <li>
-              <NavLink href="/">About the industry</NavLink>
+              <NavLink href="/about-the-industry">About the industry</NavLink>
             </li>
+
             <li>
-              <NavLink href="/">what we do</NavLink>
+              <NavDropdown
+                title="What We Do"
+                links={[
+                  {
+                    name: "Sectors ",
+                    href: "/what-we-do/sectors",
+                  },
+                  {
+                    name: "Focus / Priorities",
+                    href: "/what-we-do/focus-priorities",
+                  },
+                ]}
+              />
             </li>
 
             <li>

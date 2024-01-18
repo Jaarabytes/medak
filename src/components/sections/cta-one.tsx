@@ -21,9 +21,9 @@ const CtaOne = ({
   btnStyles,
 }: {
   title: string;
-  subTitle: string;
+  subTitle?: string;
   description: string;
-  link: string;
+  link?: string;
   imageURL: string;
   left?: boolean;
   onClick?: () => void;
@@ -67,7 +67,7 @@ const CtaOne = ({
               left && "md:order-1"
             )}
           >
-            <h6 className="text-sm font-semibold">{subTitle}</h6>
+            {subTitle && <h6 className="text-sm font-semibold">{subTitle}</h6>}
             <h1 className="text-xl md:text-3xl font-bold w-10/12 mt-4">
               {title}
             </h1>

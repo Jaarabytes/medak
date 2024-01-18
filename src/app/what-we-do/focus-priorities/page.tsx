@@ -1,0 +1,80 @@
+import Container from "@/components/container";
+import CtaOne from "@/components/sections/cta-one";
+import CtaTwo from "@/components/sections/cta-two";
+import MiniHero from "@/components/sections/mini-hero";
+import ParagraphSection from "@/components/sections/paragraph";
+import React from "react";
+
+const FocusPrioritiesPage = () => {
+  return (
+    <>
+      <MiniHero
+        title={"Focus or priorities"}
+        subTitle={""}
+        bgImageURL="/images/imageone.jpg"
+      />
+      <div className="space-y-16 my-16">
+        <CtaOne
+          title={
+            "Regulatory Ethical Practices/ Medical Tech Regulations in Kenya"
+          }
+          description={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
+          }
+          link="/what-we-do/focus-priorities/regulatory-ethical-practices/"
+          imageURL={"/images/imageone.jpg"}
+        />
+
+        <CtaOne
+          title={"Patient Safety."}
+          description={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
+          }
+          left
+          link="/what-we-do/focus-priorities/patient-safety/"
+          imageURL={"/images/imageone.jpg"}
+        />
+
+        <CtaOne
+          title={"Harmonisation of Standards."}
+          description={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
+          }
+          link="/what-we-do/focus-priorities/harmonization-of-standards/"
+          imageURL={"/images/imageone.jpg"}
+        />
+
+        <CtaOne
+          title={"Responsive advocacy and compliance."}
+          description={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
+          }
+          left
+          link="/what-we-do/focus-priorities/responsive-advocacy/"
+          imageURL={"/images/imageone.jpg"}
+        />
+
+        <CtaOne
+          title={"Training and education."}
+          description={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
+          }
+          link="/what-we-do/focus-priorities/training-and-education/"
+          imageURL={"/images/imageone.jpg"}
+        />
+
+        <CtaOne
+          title={"Networking and collaboration."}
+          description={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
+          }
+          left
+          link="/what-we-do/focus-priorities/networking-and-collaboration/"
+          imageURL={"/images/imageone.jpg"}
+        />
+      </div>
+    </>
+  );
+};
+
+export default FocusPrioritiesPage;
