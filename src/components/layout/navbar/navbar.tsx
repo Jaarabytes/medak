@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
   return (
-    <div className=" shadow border-b py-3  w-full z-50">
+    <div className=" shadow border-b py-3  w-full z-50 sticky top-0 bg-white">
       <div className="container mx-auto flex justify-between items-center">
         {/* logo */}
         <Link href={"/"}>
