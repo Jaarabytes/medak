@@ -19,16 +19,20 @@ export default function AboutUsPage() {
             and diagnostics in Kenya, representing international medical
             technology manufacturers, was formed in April 2019 due to a need for
             an industry trade association to represent the medical device
-            industry in Kenya and across diverse regions in Afric
+            industry in Kenya and across diverse regions in Africa.
           </p>
         </ParagraphSection>
         <ParagraphSection contained title={"Mission and Vision"}>
           <p>
-            MEDAK, the industry trade association for medical devices, imaging,
-            and diagnostics in Kenya, representing international medical
-            technology manufacturers, was formed in April 2019 due to a need for
-            an industry trade association to represent the medical device
-            industry in Kenya and across diverse regions in Africa
+          MEDAK strives to unite healthcare stakeholders, 
+          fostering the well-being of people across Africa, particularly in Kenya. 
+          MEDAK is dedicated to promptly integrating medical technology advancements 
+          that contribute to the overall health and prosperity of the African community. 
+          </p>
+          <p>
+            We advocate for ethical business conduct and encourage responsible citizenship, 
+            collaborating actively with healthcare professionals, regional organisations, 
+            and governmental bodies to provide superior solutions that enhance patient outcomes.
           </p>
           <ul className="list-disc pl-5 mt-2">
             <li>
