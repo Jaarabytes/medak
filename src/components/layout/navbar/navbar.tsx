@@ -1,3 +1,4 @@
+"use client";
 import AppLogo from "@/components/app-logo";
 import Image from "next/image";
 import Link from "next/link";
@@ -5,10 +6,12 @@ import NavLink from "./nav-link";
 import MobileMenu from "./mobile-menu";
 import NavDropdown from "./nav-dropdown";
 import { Button } from "@/components/ui/button";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
+  const pathname = usePathname();
   return (
-    <div className=" shadow border-b py-3  w-full z-50 sticky top-0 bg-white">
+    <div className=" shadow border-b py-4 w-full z-50 sticky top-0 bg-white">
       <div className="container mx-auto flex justify-between items-center">
         {/* logo */}
         <Link href={"/"}>
@@ -18,12 +21,20 @@ const Navbar = () => {
         <nav className="flex items-center space-x-4">
           <ul className="hidden md:flex items-center space-x-3">
             <li>
-              <NavLink href="/">home</NavLink>
+              <NavLink isActive={pathname === "/"} href="/">
+                home
+              </NavLink>
             </li>
 
             <li>
               <NavDropdown
                 title="about us"
+                triggerActive={
+                  pathname === "/about" ||
+                  pathname === "/about/our-leadership" ||
+                  pathname === "/about/members" ||
+                  pathname === "/about/join-medak"
+                }
                 links={[
                   {
                     name: "who we are",
@@ -50,12 +61,18 @@ const Navbar = () => {
             </li>
 
             <li>
-              <NavLink href="/about-the-industry">About the industry</NavLink>
+              <NavLink
+                isActive={pathname === "/about-the-industry"}
+                href="/about-the-industry"
+              >
+                About the industry
+              </NavLink>
             </li>
 
             <li>
               <NavDropdown
                 title="What We Do"
+                triggerActive={pathname.includes("/what-we-do")}
                 links={[
                   {
                     name: "Sectors ",
