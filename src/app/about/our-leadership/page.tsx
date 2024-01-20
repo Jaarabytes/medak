@@ -17,7 +17,6 @@ const OurLeadership = () => {
       image: "/images/headshots/steve-kipkoti.png",
       bio: "",
       linkedin: "http://linkedin.com/in/steve-kipkoti-235bb8aa",
-      twitter: "https://twitter.com/nellybosire",
       email: "mailto:steve.kipkoti@medtronic.com",
     },
     {
@@ -26,7 +25,6 @@ const OurLeadership = () => {
       image: "",
       bio: "",
       linkedin: "http://linkedin.com/in/mary-kinyanjui",
-      twitter: "https://twitter.com/nellybosire",
       email: "mailto:mary.kinyanjui@cepheid.com",
     },
     {
@@ -35,7 +33,6 @@ const OurLeadership = () => {
       image: "/images/headshots/njoki-mwangi.png",
       bio: "",
       linkedin: "http://linkedin.com/in/njoki-mwangi-10288376",
-      twitter: "https://twitter.com/nellybosire",
       email: "mailto:njoki@kijanimed.com",
     },
     {
@@ -44,16 +41,14 @@ const OurLeadership = () => {
       image: "/images/headshots/christopher-odero.png",
       bio: "Dr. Nelly Bosire is the Chairperson of the Medical Device Association of Kenya (MEDAK). She is the Founder and CEO of the Kenyan based company, MedSource Group, which provides medical devices, equipment, and supplies to the healthcare industry in Kenya and East Africa. She is also the Founder and CEO of the MedSource Foundation, a non-profit organization that provides medical devices and supplies to underserved communities in Kenya. Dr. Bosire is a trained medical doctor and has a Master’s degree in Public Health from the University of Liverpool. She is passionate about improving access to quality healthcare in Kenya and Africa.",
       linkedin: "http://linkedin.com/in/christopher-odero-phd-c-msc-pmp-57b4886a",
-      twitter: "https://twitter.com/nellybosire",
       email: "mailto:christopher.odero@roche.com/",
     },
     {
       name: "Maureen Njeri",
       position: "Administrative assistant",
-      image: "",
+      image: "/images/headshots/maureen-njeri.png",
       bio: "",
       linkedin: "http://linkedin.com/in/maureen-njeri-9b8691122",
-      twitter: "https://twitter.com/nellybosire",
       email: "mailto:maureennjeri30@gmail.com/",
     },
   ];
@@ -67,15 +62,13 @@ const OurLeadership = () => {
           image: "",
           bio: "",
           linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b/",
-          twitter: "https://twitter.com/nellybosire",
           email: "mailto:info@mail.com",
         },
         {
-          name: "DR. David Karenye",
+          name: "Dr. David Karenye",
           image: "",
           bio: "",
           linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b/",
-          twitter: "https://twitter.com/nellybosire",
           email: "mailto:info@mail.com",
         },
       ],
@@ -88,7 +81,6 @@ const OurLeadership = () => {
           image: "",
           bio: "",
           linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b/",
-          twitter: "https://twitter.com/nellybosire",
           email: "mailto:info@mail.com",
         },
       ],
@@ -101,7 +93,6 @@ const OurLeadership = () => {
           image: "",
           bio: "",
           linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b/",
-          twitter: "https://twitter.com/nellybosire",
           email: "mailto:info@mail.com",
         },
         {
@@ -109,7 +100,6 @@ const OurLeadership = () => {
           image: "",
           bio: "",
           linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b/",
-          twitter: "https://twitter.com/nellybosire",
           email: "mailto:info@mail.com",
         },
       ],
@@ -122,7 +112,6 @@ const OurLeadership = () => {
           image: "",
           bio: "",
           linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b/",
-          twitter: "https://twitter.com/nellybosire",
           email: "mailto:info@mail.com",
         },
         {
@@ -130,7 +119,6 @@ const OurLeadership = () => {
           image: "/images/headshots/njoki-mwangi.png",
           bio: "lorem",
           linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b/",
-          twitter: "https://twitter.com/nellybosire",
           email: "mailto:info@mail.com",
         },
       ],
@@ -174,11 +162,11 @@ const OurLeadership = () => {
         {/* committees */}
         <div className="my-10 sm:my-12 md:my-16">
           <SectionHeading heading="Committees" />
-          {committees.map((commitee, index) => (
+          {committees.map((committee, index) => (
             <div className="mt-6" key={index}>
-              <SectionHeading heading={`${commitee.name} committee`} small />
+              <SectionHeading heading={`${committee.name} committee`} small />
               <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-10">
-                {commitee.members.map((item, index) => (
+                {committee.members.map((item, index) => (
                   <SingleCommiteeMemberCard
                     key={index}
                     name={item.name}
