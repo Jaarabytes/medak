@@ -8,7 +8,7 @@ export default function AboutTheIndustryPage() {
     <div>
       <MiniHero
         title={"About the industry"}
-        subTitle={""}
+        subTitle={"The medical technology sector pioneers tools for diagnosis and treatment, elevating global healthcare and patient well-being."}
         bgImageURL="/images/imageone.jpg"
       />
       <Container>

@@ -8,7 +8,7 @@ export default function AboutUsPage() {
       <MiniHero
         title={"About Medak"}
         subTitle={
-          "Medak is a non-profit organization that brings together stakeholders in the medical device industry in Kenya."
+          "MEDAK unites healthcare stakeholders, advocating for medical technology innovation and ethical practices in Kenya and across Africa."
         }
         bgImageURL="/images/imageone.jpg"
       />

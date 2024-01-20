@@ -6,7 +6,7 @@ const SectorsPage = () => {
   return (
     <div>
       <MiniHero
-        title={"Focus or priorities"}
+        title={"Sectors"}
         subTitle={""}
         bgImageURL="/images/imageone.jpg"
       />

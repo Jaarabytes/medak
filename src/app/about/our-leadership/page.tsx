@@ -4,7 +4,7 @@ import MiniHero from "@/components/sections/mini-hero";
 import SingleCommiteeMemberCard from "@/components/single-commitee-member-card";
 import SingleLeadershipMemberCard from "@/components/single-leadership-member-card";
 import { Button } from "@/components/ui/button";
-import ImageContaier from "@/components/ui/image-container";
+import ImageContainer from "@/components/ui/image-container";
 import Link from "next/link";
 import React from "react";
 import { LuLinkedin } from "react-icons/lu";
@@ -141,12 +141,12 @@ const OurLeadership = () => {
       <MiniHero title={"Our Leadership"} subTitle={"Our Leadership"} />
       <Container>
         <div className="mt-6">
-          <SectionHeading heading="Secretariate or Management" />
+          <SectionHeading heading="Secretariat" />
           <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-10">
             {management.map((item, index) => (
               // <div key={index} className="group">
               //   <div className="">
-              //     <ImageContaier
+              //     <ImageContainer
               //       ratio={1}
               //       alt="image"
               //       imageURL={item.image ? item.image : "/user-placeholder.png"}
@@ -173,7 +173,7 @@ const OurLeadership = () => {
 
         {/* committees */}
         <div className="my-10 sm:my-12 md:my-16">
-          <SectionHeading heading="Committes" />
+          <SectionHeading heading="Committees" />
           {committees.map((commitee, index) => (
             <div className="mt-6" key={index}>
               <SectionHeading heading={`${commitee.name} committee`} small />

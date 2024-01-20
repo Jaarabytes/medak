@@ -9,8 +9,8 @@ const FocusPrioritiesPage = () => {
   return (
     <>
       <MiniHero
-        title={"Focus or priorities"}
-        subTitle={""}
+        title={"Our Focus"}
+        subTitle={"MEDAK focuses on ethical medtech advancement, regulatory harmonization, and improved healthcare outcomes in Kenya and Africa."}
         bgImageURL="/images/imageone.jpg"
       />
       <div className="space-y-16 my-16">
