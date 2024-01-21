@@ -21,7 +21,7 @@ const OurLeadership = () => {
     },
     {
       name: "Mary Kinyanjui",
-      position: "vice-chairperson",
+      position: "Vice-Chairperson",
       image: "",
       bio: "",
       linkedin: "http://linkedin.com/in/mary-kinyanjui",
@@ -45,7 +45,7 @@ const OurLeadership = () => {
     },
     {
       name: "Maureen Njeri",
-      position: "Administrative assistant",
+      position: "Administrative Assistant",
       image: "/images/headshots/maureen-njeri.png",
       bio: "",
       linkedin: "http://linkedin.com/in/maureen-njeri-9b8691122",

@@ -57,7 +57,7 @@ const FocusPrioritiesPage = () => {
         <CtaOne
           title={"Training and education."}
           description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
+            "MEDAK aids members in mastering Kenya and Africa's regulatory landscape through comprehensive training, resources, and direct engagement."
           }
           link="/what-we-do/focus-priorities/training-and-education/"
           imageURL={"/images/imageone.jpg"}
