@@ -12,7 +12,7 @@ export default function Home() {
     <div className="space-y-2">
       <Hero
         link="/"
-        text="Bringing innovation to patient care worldwide"
+        text="Experience patient-centric innovation in Kenya."
         imageURL="/images/horizontal images/MEDICS-LOOKING-AT-AN-X-RAY-IMAGE.jpg"
       />
       <About />

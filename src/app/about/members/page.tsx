@@ -10,11 +10,11 @@ const MembersPage = () => {
       title: "Industry Members",
       items: [
         {
-          title: "abbot",
+          title: "abbott laboratories",
           imageURL: "/logos/members/Abbott-Logo.svg",
         },
         {
-          title: "bbraun",
+          title: "b. braun",
           imageURL: "/logos/members/bbraun-logo.svg",
         },
         {
@@ -22,11 +22,15 @@ const MembersPage = () => {
           imageURL: "/logos/members/Becton-Dickinson-logo.svg",
         },
         {
+          title: "cepheid",
+          imageURL: "/logos/members/cepheid-logo.svg",
+        },
+        {
           title: "medtronic",
           imageURL: "/logos/members/Medtronic-Logo.svg",
         },
         {
-          title: "JNJ",
+          title: "Johnson & Johnson",
           imageURL: "/logos/members/JNJ-Logo.svg",
         },
         {
@@ -34,7 +38,7 @@ const MembersPage = () => {
           imageURL: "/logos/members/GEHealthCare-logo.svg",
         },
         {
-          title: "F & S",
+          title: "F&S Scientific",
           imageURL: "/logos/members/F&S-logo.svg",
         },
         {
@@ -53,6 +57,10 @@ const MembersPage = () => {
         {
           title: "alphamedical manufacturers",
           imageURL: "/logos/members/alphamedicalmanufacturers-logo.svg",
+        },
+        {
+          title: "bel-aire international",
+          imageURL: "/logos/members/belaire-international-ltd.svg",
         },
         {
           title: "surgipharm",
@@ -79,7 +87,7 @@ const MembersPage = () => {
           imageURL: "/logos/members/imperiallogistics-logo.svg",
         },
         {
-          title: "kijanimedical",
+          title: "kijani medical",
           imageURL: "/logos/members/kijanimedical-logo.svg",
         },
       ],
@@ -146,7 +154,7 @@ const MembersPage = () => {
 
         {/* partners */}
         <div className="mt-10">
-          <h1 className="text-4xl font-bold">Members</h1>
+          <h1 className="text-4xl font-bold">Partners</h1>
           <div className="mt-6 space-y-8">
             <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-10">
               {partners.map((item, index) => (

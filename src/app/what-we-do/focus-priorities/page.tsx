@@ -9,8 +9,8 @@ const FocusPrioritiesPage = () => {
   return (
     <>
       <MiniHero
-        title={"Focus or priorities"}
-        subTitle={""}
+        title={"Our Focus"}
+        subTitle={"MEDAK focuses on ethical medtech advancement, regulatory harmonization, and improved healthcare outcomes in Kenya and Africa."}
         bgImageURL="/images/imageone.jpg"
       />
       <div className="space-y-16 my-16">
@@ -57,7 +57,7 @@ const FocusPrioritiesPage = () => {
         <CtaOne
           title={"Training and education."}
           description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
+            "MEDAK aids members in mastering Kenya and Africa's regulatory landscape through comprehensive training, resources, and direct engagement."
           }
           link="/what-we-do/focus-priorities/training-and-education/"
           imageURL={"/images/imageone.jpg"}
