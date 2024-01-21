@@ -58,7 +58,7 @@ const Footer = () => {
         <Container className=" py-20 flex flex-col md:flex-row space-y-8 md:space-y-0 md:items-center justify-between text-white">
           <div>
             <div className="mb-4">
-              <AppLogo />
+              <AppLogo white />
             </div>
             <div>
               <p className="mb-2">Stay up to date with {siteData.title}.</p>

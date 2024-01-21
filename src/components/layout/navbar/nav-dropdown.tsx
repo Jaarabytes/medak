@@ -28,7 +28,6 @@ const NavDropdown = ({
   const [open, setOpen] = React.useState(false);
   const pathname = usePathname();
 
-  console.log(pathname.split("/")[2]);
   return (
     <>
       <DropdownMenu open={open} onOpenChange={setOpen}>
