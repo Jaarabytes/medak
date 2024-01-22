@@ -5,17 +5,18 @@ import Events from "@/components/sections/events";
 import Hero from "@/components/sections/hero";
 import MembersAndPartners from "@/components/sections/members-and-partners";
 import Resources from "@/components/sections/resources";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="space-y-2">
       <Hero
-        link="/"
+        link="/about"
         text="Experience patient-centric innovation in Kenya."
         imageURL="/images/horizontal images/MEDICS-LOOKING-AT-AN-X-RAY-IMAGE.jpg"
       />
+
       <About />
+
       <CtaOne
         title={"  ipsum dolor sit amet consectetur adipisicing elit."}
         subTitle={"Lorem ipsum dolor"}

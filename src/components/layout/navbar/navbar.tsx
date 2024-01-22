@@ -71,6 +71,15 @@ const Navbar = () => {
             </li>
 
             <li>
+              <NavLink
+                isActive={pathname.includes("/what-we-do")}
+                href="/what-we-do"
+              >
+                What we do
+              </NavLink>
+            </li>
+
+            {/* <li>
               <NavDropdown
                 title="What We Do"
                 triggerActive={pathname.includes("/what-we-do")}
@@ -85,7 +94,7 @@ const Navbar = () => {
                   },
                 ]}
               />
-            </li>
+            </li> */}
             {/* <li>
               <ModeToggle />
             </li> */}
