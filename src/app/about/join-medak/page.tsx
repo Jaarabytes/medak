@@ -8,9 +8,9 @@ const JoinMedak = () => {
   return (
     <div>
       <MiniHero
-        title={"Join Medak"}
+        title={"Join MEDAK"}
         subTitle={
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, iste"
+          "Elevate your company with unparalleled policy shaping, advocacy, and industry collaboration."
         }
       />
       <Container className="mb-10">
@@ -24,6 +24,18 @@ const JoinMedak = () => {
             and MEDAK membership.
           </span>
         </ParagraphSection>
+        <ParagraphSection contained className="">
+          <span>
+          Who Does MEDAK Represent?
+          MEDAK’s membership includes:
+          Major Multinational / Affiliate of multinational and local manufacturers of medical technologies.
+          Local and international trade associations
+          Wholesaler/ Distributor
+          Retailer
+          Consultancy/ agency and emerging startups in the medical technology industry
+          </span>
+        </ParagraphSection>
+        
         <ParagraphSection contained title="Membership Benefits" className="">
           <SectionHeading
             heading=" Types of Membership/ MEDAK categorises members as follows:"
