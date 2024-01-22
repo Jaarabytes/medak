@@ -1,7 +1,7 @@
 import Container from "@/components/container";
 import SectionHeading from "@/components/section-heading";
 import MiniHero from "@/components/sections/mini-hero";
-import SingleCommitteeMemberCard from "@/components/single-committee-member-card";
+import SingleCommiteeMemberCard from "@/components/single-commitee-member-card";
 import SingleLeadershipMemberCard from "@/components/single-leadership-member-card";
 import { Button } from "@/components/ui/button";
 import ImageContainer from "@/components/ui/image-container";
@@ -40,7 +40,8 @@ const OurLeadership = () => {
       position: "Secretary",
       image: "/images/headshots/christopher-odero.png",
       bio: "Dr. Nelly Bosire is the Chairperson of the Medical Device Association of Kenya (MEDAK). She is the Founder and CEO of the Kenyan based company, MedSource Group, which provides medical devices, equipment, and supplies to the healthcare industry in Kenya and East Africa. She is also the Founder and CEO of the MedSource Foundation, a non-profit organization that provides medical devices and supplies to underserved communities in Kenya. Dr. Bosire is a trained medical doctor and has a Master’s degree in Public Health from the University of Liverpool. She is passionate about improving access to quality healthcare in Kenya and Africa.",
-      linkedin: "http://linkedin.com/in/christopher-odero-phd-c-msc-pmp-57b4886a",
+      linkedin:
+        "http://linkedin.com/in/christopher-odero-phd-c-msc-pmp-57b4886a",
       email: "mailto:christopher.odero@roche.com/",
     },
     {
@@ -167,7 +168,7 @@ const OurLeadership = () => {
               <SectionHeading heading={`${committee.name} committee`} small />
               <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-10">
                 {committee.members.map((item, index) => (
-                  <SingleCommitteeMemberCard
+                  <SingleCommiteeMemberCard
                     key={index}
                     name={item.name}
                     imageURL={item.image}
