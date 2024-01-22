@@ -17,7 +17,7 @@ export default function Home() {
       />
       <About />
       <CtaOne
-        title={" Lorem ipsum dolor sit amet consectetur adipisicing elit."}
+        title={"  ipsum dolor sit amet consectetur adipisicing elit."}
         subTitle={"Lorem ipsum dolor"}
         description={
           " Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque in harum ea nam debitis, laudantium vero, incidunt corrupti omnis vel molestias dicta maiores dolor perferendis, alias ullam quam repudiandae eius!"
