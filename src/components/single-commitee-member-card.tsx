@@ -1,10 +1,10 @@
 import React from "react";
-import ImageContaier from "./ui/image-container";
+import ImageContainer from "./ui/image-container";
 import Link from "next/link";
 import slugify from "slugify";
 import { Card, CardTitle } from "./ui/card";
 
-const SingleCommiteeMemberCard = ({
+const SingleCommitteeMemberCard = ({
   imageURL,
   name,
   bio,
@@ -18,7 +18,7 @@ const SingleCommiteeMemberCard = ({
       {!bio ? (
         <div className="group  ">
           <div className="">
-            <ImageContaier
+            <ImageContainer
               ratio={1}
               alt="image"
               imageURL={imageURL ? imageURL : "/user-placeholder.png"}
@@ -37,7 +37,7 @@ const SingleCommiteeMemberCard = ({
           className="group"
         >
           <div className="">
-            <ImageContaier
+            <ImageContainer
               ratio={1}
               alt="image"
               imageURL={imageURL ? imageURL : "/user-placeholder.png"}
@@ -55,4 +55,4 @@ const SingleCommiteeMemberCard = ({
   );
 };
 
-export default SingleCommiteeMemberCard;
+export default SingleCommitteeMemberCard;
