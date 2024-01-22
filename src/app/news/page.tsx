@@ -1,9 +1,9 @@
 import Container from "@/components/container";
 
-export default function BlogPage() {
+export default function NewsPage() {
   return (
     <Container>
-      <h1>Blog</h1>
+      <h1>News</h1>
       <p>Coming soon...</p>
     </Container>
   );

@@ -7,6 +7,7 @@ import MobileMenu from "./mobile-menu";
 import NavDropdown from "./nav-dropdown";
 import { Button } from "@/components/ui/button";
 import { usePathname } from "next/navigation";
+import { ModeToggle } from "@/components/ui/theme-switch";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -85,30 +86,29 @@ const Navbar = () => {
                 ]}
               />
             </li>
-
+            {/* <li>
+              <ModeToggle />
+            </li> */}
             <li>
               <NavDropdown
                 title="industry updates"
+                triggerActive={
+                  pathname === "/news" ||
+                  pathname === "/events" ||
+                  pathname === "/blog"
+                }
                 links={[
                   {
-                    name: "news and events ",
-                    href: "/",
+                    name: "news ",
+                    href: "/news",
+                  },
+                  {
+                    name: "events ",
+                    href: "/events",
                   },
                   {
                     name: "blog",
-                    href: "/",
-                  },
-                  {
-                    name: "latest resources",
-                    href: "/",
-                  },
-                  {
-                    name: "sectors",
-                    href: "/",
-                  },
-                  {
-                    name: "join medak",
-                    href: "/",
+                    href: "/blog",
                   },
                 ]}
               />
