@@ -22,7 +22,7 @@ const OurLeadership = () => {
     {
       name: "Mary Kinyanjui",
       position: "Vice-Chairperson",
-      image: "",
+      image: "/images/headshots/mary-kinyanjui.png",
       bio: "",
       linkedin: "http://linkedin.com/in/mary-kinyanjui",
       email: "mailto:mary.kinyanjui@cepheid.com",
