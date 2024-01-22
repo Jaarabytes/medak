@@ -1,7 +1,7 @@
 import Container from "@/components/container";
 import SectionHeading from "@/components/section-heading";
 import MiniHero from "@/components/sections/mini-hero";
-import SingleCommiteeMemberCard from "@/components/single-commitee-member-card";
+import SingleCommitteeMemberCard from "@/components/single-committee-member-card";
 import SingleLeadershipMemberCard from "@/components/single-leadership-member-card";
 import { Button } from "@/components/ui/button";
 import ImageContainer from "@/components/ui/image-container";
@@ -167,7 +167,7 @@ const OurLeadership = () => {
               <SectionHeading heading={`${committee.name} committee`} small />
               <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-10">
                 {committee.members.map((item, index) => (
-                  <SingleCommiteeMemberCard
+                  <SingleCommitteeMemberCard
                     key={index}
                     name={item.name}
                     imageURL={item.image}
