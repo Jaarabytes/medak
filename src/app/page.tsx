@@ -49,7 +49,7 @@ export default function Home() {
       <MembersAndPartners
         title={" Members & Partners"}
         description={
-          " Join in recognising the exceptional companies and individuals who are the foundation of MEDAK's achievements."
+          " Join in recognising the exceptional partners and companies who are the foundation of MEDAK's achievements."
         }
       />
       <CtaTwo

@@ -10,7 +10,7 @@ import Container from "../container";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import ImageContaier from "../ui/image-container";
+import ImageContainer from "../ui/image-container";
 
 const MembersAndPartners = ({
   title,
@@ -144,7 +144,7 @@ const MembersAndPartners = ({
             >
               {members.map((member, index) => (
                 <SwiperSlide key={index} className="bg-white">
-                  <ImageContaier
+                  <ImageContainer
                     alt={member.title}
                     ratio={16 / 9}
                     imageURL={member.imageURL}
@@ -170,7 +170,7 @@ const MembersAndPartners = ({
             >
               {partners.map((partner, index) => (
                 <SwiperSlide key={index} className="bg-white">
-                  <ImageContaier
+                  <ImageContainer
                     alt={partner.title}
                     ratio={16 / 9}
                     imageURL={partner.imageURL}
