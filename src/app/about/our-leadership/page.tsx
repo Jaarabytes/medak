@@ -109,11 +109,11 @@ const OurLeadership = () => {
       name: "Public Relations and Communications",
       members: [
         {
-          name: "Dr. Adams Mogeni",
-          image: "",
+          name: "Dr. Janki Chauhan",
+          image: "/images/headshots/janki-chauhan.png",
           bio: "",
-          linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b/",
-          email: "mailto:info@mail.com",
+          linkedin: "https://www.linkedin.com/in/dr-janki-c-80b31055",
+          email: "mailto:janki.chauhan@surgipharm.com",
         },
         {
           name: "Njoki Mwangi",
