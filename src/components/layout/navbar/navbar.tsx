@@ -108,10 +108,6 @@ const Navbar = () => {
                 }
                 links={[
                   {
-                    name: "news ",
-                    href: "/news",
-                  },
-                  {
                     name: "events ",
                     href: "/events",
                   },

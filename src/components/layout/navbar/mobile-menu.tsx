@@ -17,17 +17,21 @@ import {
 import NavLink from "./nav-link";
 import { usePathname } from "next/navigation";
 import { LuMenu } from "react-icons/lu";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
+import MobileMenuDropdown from "./mobile-menu-dropdown";
 
 function MobileMenu() {
   const pathname = usePathname();
   const [open, setOpen] = React.useState(false);
+  const toggleMobileMenu = () => {
+    setOpen(!open);
+  };
   return (
-    <Sheet
-      open={open}
-      onOpenChange={() => {
-        setOpen(!open);
-      }}
-    >
+    <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
         <button className="hover:text-primary md:hidden">
           <LuMenu />
@@ -39,7 +43,95 @@ function MobileMenu() {
         </SheetHeader>
         <div>
           <ul className="flex flex-col space-gap-4 ">
-            {[
+            <li>
+              <NavLink
+                isActive={pathname === "/"}
+                href="/"
+                onClick={() => {
+                  toggleMobileMenu();
+                }}
+              >
+                home
+              </NavLink>
+            </li>
+
+            <li>
+              <MobileMenuDropdown
+                title="about us"
+                triggerActive={
+                  pathname === "/about" ||
+                  pathname === "/about/our-leadership" ||
+                  pathname === "/about/members" ||
+                  pathname === "/about/join-medak"
+                }
+                toggleMobileMenu={toggleMobileMenu}
+                links={[
+                  {
+                    name: "who we are",
+                    href: "/about",
+                  },
+                  {
+                    name: "our leadership",
+                    href: "/about/our-leadership",
+                  },
+                  {
+                    name: "members",
+                    href: "/about/members",
+                  },
+                  {
+                    name: "join medak",
+                    href: "/about/join-medak",
+                  },
+                ]}
+              />
+            </li>
+
+            <li>
+              <NavLink
+                isActive={pathname === "/about-the-industry"}
+                href="/about-the-industry"
+                onClick={() => {
+                  toggleMobileMenu();
+                }}
+              >
+                About the industry
+              </NavLink>
+            </li>
+
+            <li>
+              <NavLink
+                isActive={pathname.includes("/what-we-do")}
+                href="/what-we-do"
+                onClick={() => {
+                  toggleMobileMenu();
+                }}
+              >
+                What we do
+              </NavLink>
+            </li>
+            <li>
+              <MobileMenuDropdown
+                title="industry updates"
+                triggerActive={
+                  pathname === "/news" ||
+                  pathname === "/events" ||
+                  pathname === "/blog"
+                }
+                toggleMobileMenu={toggleMobileMenu}
+                links={[
+                  {
+                    name: "events ",
+                    href: "/events",
+                  },
+                  {
+                    name: "blog",
+                    href: "/blog",
+                  },
+                ]}
+              />
+            </li>
+
+            {/* {[
               {
                 title: "Home",
                 href: "/",
@@ -73,7 +165,7 @@ function MobileMenu() {
                   {item.title}
                 </NavLink>
               );
-            })}
+            })} */}
           </ul>
         </div>
       </SheetContent>

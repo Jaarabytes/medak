@@ -12,7 +12,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import ImageContaier from "../ui/image-container";
 
-const MembersAndPartners = () => {
+const MembersAndPartners = ({
+  title,
+  description,
+}: {
+  title: string;
+  description: string;
+}) => {
   const members = [
     {
       title: "abbot",
@@ -106,16 +112,12 @@ const MembersAndPartners = () => {
       imageURL: "/logos/partners/medtecheurope-logo.svg",
     },
   ];
+
   return (
     <section className="bg-blue-100/50 py-16">
       <Container>
-        <h1 className="text-4xl font-bold mb-6">Members and Partners</h1>
-        <p className="mb-6 md:max-w-4xl">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
-          accusantium accusamus, ducimus necessitatibus ex blanditiis
-          reprehenderit nihil doloribus voluptate quaerat ipsam aliquid ut
-          aliquam quis laboriosam ea nemo rerum facilis!
-        </p>
+        <h1 className="text-4xl font-bold mb-6">{title}</h1>
+        <p className="mb-6 md:max-w-4xl">{description}</p>
         <div className="bg-white">
           {/* members slider section */}
           <div>
