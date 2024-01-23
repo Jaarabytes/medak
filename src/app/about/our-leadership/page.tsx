@@ -126,7 +126,7 @@ const OurLeadership = () => {
 
   return (
     <div>
-      <MiniHero title={"Our Leadership"} subTitle={"Our Leadership"} />
+      <MiniHero title={"Our Leadership"} subTitle={"The MEDAK team, comprised of experienced experts, diligently strives to advance the medtech sector, aiming to enhance patient health outcomes."} />
       <Container>
         <div className="mt-6">
           <SectionHeading heading="Secretariat" />
