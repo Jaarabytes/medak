@@ -26,7 +26,7 @@ const Hero = ({
               className="object-cover object-center"
             />
             <div className="bg-white absolute bottom-0 p-4 sm:p-6 md:px-4 md:py-10 w-8/12 sm:w-5/12 md:w-1/2  ">
-              <h1 className="text-xl md:text-3xl font-bold">{text}</h1>
+              <h1 className="text-base md:text-3xl font-bold">{text}</h1>
               <Link href={link}>
                 <Button variant={"link"} className="space-x-2 px-0">
                   <span className="">Get to Know us</span>
