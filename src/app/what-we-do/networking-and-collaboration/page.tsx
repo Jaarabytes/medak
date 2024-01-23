@@ -5,9 +5,9 @@ const NetworkingAndCollaborationPage = () => {
   return (
     <div>
       <MiniHero
-        title={"Networking and collaboration."}
+        title={"Networking and Collaboration."}
         subTitle={
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
+          "MEDAK cultivates robust networking and collaboration, uniting global industry experts to drive innovation and shared progress."
         }
         bgImageURL="/images/imageone.jpg"
       />

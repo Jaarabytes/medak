@@ -42,7 +42,7 @@ const Resources = () => {
     <section className="py-14">
       <Container>
         <div className="mb-6">
-          <h1 className="text-4xl font-bold">Our latest Resources</h1>
+          <h1 className="text-4xl font-bold">Our Latest Resources</h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 ">
           {resources.map((resource, index) => {
@@ -58,7 +58,7 @@ const Resources = () => {
           })}
         </div>
         <div className="mt-6">
-          <Link href={"/"}>
+          <Link href={"/blog"}>
             <Button className="float-right space-x-2">
               <span>More Resources</span>
               <span>

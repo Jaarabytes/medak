@@ -6,7 +6,7 @@ export default function AboutUsPage() {
   return (
     <div>
       <MiniHero
-        title={"About Medak"}
+        title={"About MEDAK"}
         subTitle={
           "MEDAK unites healthcare stakeholders, advocating for medical technology innovation and ethical practices in Kenya and across Africa."
         }

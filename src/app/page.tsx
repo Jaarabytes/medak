@@ -24,12 +24,12 @@ export default function Home() {
         subTitle={"Our Work"}
         // this is the description of the cta section
         description={
-          " MEDAK collaborates with key stakeholders across Kenya, advocating for top medtech priorities, enhancing regulatory frameworks, and ensuring broader access to innovative medical technologies for improved healthcare outcomes"
+          " MEDAK collaborates with key stakeholders across Kenya, advocating for top medtech priorities, enhancing regulatory frameworks, and ensuring broader access to innovative medical technologies for improved healthcare outcomes."
         }
         // this is image url of the image in the cta section
         imageURL={"/images/imageone.jpg"}
         // when the link prop is passed the button in the cta section becomes a link (obviously) also there is an additional onClick prop which makes the button just a normal button with a click fuction and for f**ks sake just use one at a time
-        link={"/"}
+        link={"/what-we-do/regulatory-ethical-practices"}
         // the below prop (bgColor) can be used to change the background color of the cta section and the btnStyled one can be used to modify the styles or the appearance of the button in the cta section
         bgColor="bg-green-500"
         btnStyles="bg-green-700 hover:bg-green-900"
@@ -40,14 +40,14 @@ export default function Home() {
         description={
           " Discover cutting-edge insights and trends in our latest research, news, and policy papers, shaping the future of the medtech industry."
         }
-        link={"/"}
+        link={"/blog"}
         // this one has the left prop meaning the image moves from the side it was to the opposite side (very obvious again)
         left
         imageURL={"/images/imageone.jpg"}
       />
       <Resources />
       <MembersAndPartners
-        title={" Members & Partners."}
+        title={" Members & Partners"}
         description={
           " Join in recognising the exceptional companies and individuals who are the foundation of MEDAK's achievements."
         }
@@ -58,7 +58,7 @@ export default function Home() {
         description={
           " MEDAK fosters dynamic networking and collaboration, uniting industry leaders to drive innovation, share knowledge, and shape the future of medical technology."
         }
-        link={"/"}
+        link={"/what-we-do/networking-and-collaboration"}
         imageURL={"/images/imageone.jpg"}
       />
       <CtaTwo

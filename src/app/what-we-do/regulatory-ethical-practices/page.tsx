@@ -8,10 +8,10 @@ const RegulatoryEthicalPracticesPage = () => {
     <div>
       <MiniHero
         title={
-          "Regulatory Ethical Practices/ Medical Tech Regulations in Kenya"
+          "Regulatory Ethical Practices & Medical Tech Regulations in Kenya"
         }
         subTitle={
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corruption "
+          "The innovative advocacy, global standards alignment, and ethics of MEDAK greatly improve Kenya's medical technology regulations. "
         }
         bgImageURL="/images/imageone.jpg"
       />

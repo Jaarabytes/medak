@@ -9,7 +9,7 @@ const TrainingAndEducationPage = () => {
       <MiniHero
         title={"Training and education."}
         subTitle={
-          "MEDAK aids members in mastering Kenya and Africa's regulatory landscape through comprehensive training, resources, and direct engagement."
+          "MEDAK fosters industry excellence by offering extensive training and educational opportunities, enhancing expertise and global collaboration."
         }
         bgImageURL="/images/imageone.jpg"
       />

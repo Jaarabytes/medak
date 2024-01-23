@@ -9,7 +9,7 @@ const FocusPrioritiesPage = () => {
   return (
     <>
       <MiniHero
-        title={"What we do"}
+        title={"What We Do"}
         subTitle={
           "MEDAK focuses on ethical medtech advancement, regulatory harmonization, and improved healthcare outcomes in Kenya and Africa."
         }
@@ -18,19 +18,19 @@ const FocusPrioritiesPage = () => {
       <div className="space-y-16 my-16">
         <CtaOne
           title={
-            "Regulatory Ethical Practices/ Medical Tech Regulations in Kenya"
+            "Regulatory Ethical Practices & Medical Tech Regulations in Kenya"
           }
           description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
+            "MEDAK enhances Kenya's medical tech regulations with ethical practices, global standard alignment, and responsive, innovative advocacy."
           }
           link="/what-we-do/regulatory-ethical-practices/"
           imageURL={"/images/imageone.jpg"}
         />
 
         <CtaOne
-          title={"Patient Safety."}
+          title={"Patient Safety"}
           description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
+            "MEDAK champions patient safety, advocating for ethical standards and innovative medical solutions through rigorous regulatory compliance"
           }
           left
           link="/what-we-do/patient-safety/"
@@ -38,26 +38,7 @@ const FocusPrioritiesPage = () => {
         />
 
         <CtaOne
-          title={"Harmonisation of Standards."}
-          description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
-          }
-          link="/what-we-do/harmonization-of-standards/"
-          imageURL={"/images/imageone.jpg"}
-        />
-
-        <CtaOne
-          title={"Responsive advocacy and compliance."}
-          description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
-          }
-          left
-          link="/what-we-do/responsive-advocacy/"
-          imageURL={"/images/imageone.jpg"}
-        />
-
-        <CtaOne
-          title={"Training and education."}
+          title={"Training & Education"}
           description={
             "MEDAK aids members in mastering Kenya and Africa's regulatory landscape through comprehensive training, resources, and direct engagement."
           }
@@ -66,9 +47,9 @@ const FocusPrioritiesPage = () => {
         />
 
         <CtaOne
-          title={"Networking and collaboration."}
+          title={"Networking & Collaboration"}
           description={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
+            "MEDAK cultivates robust networking and collaboration, uniting global industry experts to drive innovation and shared progress."
           }
           left
           link="/what-we-do/networking-and-collaboration/"
