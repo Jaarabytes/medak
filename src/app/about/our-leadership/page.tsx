@@ -125,6 +125,7 @@ const OurLeadership = () => {
       ],
     },
   ];
+
   return (
     <div>
       <MiniHero title={"Our Leadership"} subTitle={"Our Leadership"} />
