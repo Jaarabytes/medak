@@ -24,6 +24,7 @@ const NavLink = ({
         " uppercase font-bold text-sm hover:text-primary",
         className
       )}
+      onClick={onClick}
     >
       {children}
     </Link>

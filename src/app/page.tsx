@@ -18,11 +18,15 @@ export default function Home() {
       <About />
 
       <CtaOne
-        title={"  ipsum dolor sit amet consectetur adipisicing elit."}
+        // this is the title of the cta section
+        title={"Wow some new title."}
+        // this is the subtitle of the cta section
         subTitle={"Lorem ipsum dolor"}
+        // this is the description of the cta section
         description={
           " Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque in harum ea nam debitis, laudantium vero, incidunt corrupti omnis vel molestias dicta maiores dolor perferendis, alias ullam quam repudiandae eius!"
         }
+        // this ist image url of the image in the cta section
         imageURL={"/images/imageone.jpg"}
         // when the link prop is passed the button in the cta section becomes a link (obviously) also there is an additional onClick prop which makes the button just a normal button with a click fuction and for f**ks sake just use one at a time
         link={"/"}
@@ -42,7 +46,12 @@ export default function Home() {
         imageURL={"/images/imageone.jpg"}
       />
       <Resources />
-      <MembersAndPartners />
+      <MembersAndPartners
+        title={" Members and partners."}
+        description={
+          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque in harum ea nam debitis, laudantium vero, incidunt corrupti omnis vel molestias dicta maiores dolor perferendis, alias ullam quam repudiandae eius!"
+        }
+      />
       <CtaTwo
         title={" Lorem ipsum dolor sit amet consectetur adipisicing elit."}
         subTitle={"subTitle"}
