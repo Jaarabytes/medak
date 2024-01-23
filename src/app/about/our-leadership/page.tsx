@@ -59,29 +59,22 @@ const OurLeadership = () => {
       name: "Trade, Policy and Regulations",
       members: [
         {
-          name: "Margaret Mulwa",
-          image: "",
+          name: "Esther Mokaya",
+          image: "/images/headshots/esther-mokaya.png",
           bio: "",
-          linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b/",
-          email: "mailto:info@mail.com",
-        },
-        {
-          name: "Dr. David Karenye",
-          image: "",
-          bio: "",
-          linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b/",
+          linkedin: "https://www.linkedin.com/in/esther-mokaya-66929529",
           email: "mailto:info@mail.com",
         },
       ],
     },
     {
-      name: "Legal and Compliance",
+      name: "Legal & Compliance",
       members: [
         {
           name: "Brenton Okubasu",
-          image: "",
+          image: "/images/headshots/brenton-okubasu.png",
           bio: "",
-          linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b/",
+          linkedin: "https://www.linkedin.com/in/brenton-o-a044b154",
           email: "mailto:info@mail.com",
         },
       ],
@@ -93,20 +86,32 @@ const OurLeadership = () => {
           name: "Steve Kipkoti",
           image: "",
           bio: "",
-          linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b/",
+          linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b",
           email: "mailto:info@mail.com",
         },
         {
           name: "Mary Wangui",
           image: "",
           bio: "",
-          linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b/",
+          linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b",
           email: "mailto:info@mail.com",
         },
       ],
     },
     {
-      name: "Public Relations and Communications",
+      name: "Education & Training",
+      members: [
+        {
+          name: "Dr. Jerusha Kamau",
+          image: "/images/headshots/jerusha-kamau.png",
+          bio: "",
+          linkedin: "https://www.linkedin.com/in/jerusha-kamau-0a611070",
+          email: "mailto:info@mail.com",
+        },
+      ],
+    },
+    {
+      name: "Public Relations and Marketing",
       members: [
         {
           name: "Dr. Janki Chauhan",
@@ -114,13 +119,6 @@ const OurLeadership = () => {
           bio: "",
           linkedin: "https://www.linkedin.com/in/dr-janki-c-80b31055",
           email: "mailto:janki.chauhan@surgipharm.com",
-        },
-        {
-          name: "Njoki Mwangi",
-          image: "/images/headshots/njoki-mwangi.png",
-          bio: "lorem",
-          linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b/",
-          email: "mailto:info@mail.com",
         },
       ],
     },
@@ -166,7 +164,7 @@ const OurLeadership = () => {
           <SectionHeading heading="Committees" />
           {committees.map((committee, index) => (
             <div className="mt-6" key={index}>
-              <SectionHeading heading={`${committee.name} committee`} small />
+              <SectionHeading heading={`${committee.name}`} small />
               <div className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-10">
                 {committee.members.map((item, index) => (
                   <SingleCommiteeMemberCard
