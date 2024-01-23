@@ -35,7 +35,7 @@ export default function Home() {
         btnStyles="bg-green-700 hover:bg-green-900"
       />
       <CtaOne
-        title={" News, Research and Policy Papers"}
+        title={" News, Research & Policy Papers"}
         subTitle={"Latest Updates"}
         description={
           " Discover cutting-edge insights and trends in our latest research, news, and policy papers, shaping the future of the medtech industry."
@@ -47,13 +47,13 @@ export default function Home() {
       />
       <Resources />
       <MembersAndPartners
-        title={" Members and partners."}
+        title={" Members & Partners."}
         description={
           " Join in recognising the exceptional companies and individuals who are the foundation of MEDAK's achievements."
         }
       />
       <CtaTwo
-        title={" Networking and Collaboration"}
+        title={" Networking & Collaboration"}
         subTitle={"Resource / Investor Relations / Business Development "}
         description={
           " MEDAK fosters dynamic networking and collaboration, uniting industry leaders to drive innovation, share knowledge, and shape the future of medical technology."

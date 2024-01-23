@@ -11,31 +11,31 @@ const Resources = () => {
   const resources = [
     {
       imageURL: "/images/imageone.jpg",
-      title: "resource one",
-      category: "category one",
+      title: "Medical Device & IVD Registration Guidelines",
+      category: "Regulatory Affairs",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem hic repudiandae omnis.",
+        "PPB guidelines ensure stringent, transparent registration of medical devices and IVDs, prioritising safety.",
     },
     {
       imageURL: "/images/imageone.jpg",
-      title: "resource two",
+      title: "Kenya Medical Devices Report",
       category: "category two",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem hic repudiandae omnis.",
+        "Kenya's medical device market is set to grow, driven by imports, universal health coverage initiatives, and increasing investment opportunities.",
     },
     {
       imageURL: "/images/imageone.jpg",
-      title: "resource three",
-      category: "category three",
+      title: "MDRC Global Standards Enhancement",
+      category: "Regulatory Affairs",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem hic repudiandae omnis.",
+        "MDRC, fostering global collaboration, boosts medical device standards, ensuring safety, quality, and economic growth in developing regions, including Kenya.",
     },
     {
       imageURL: "/images/imageone.jpg",
-      title: "resource four",
-      category: "category four",
+      title: "Securing Africa: Local Manufacturing ",
+      category: "Business development",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem hic repudiandae omnis.",
+        "Local Manufacturing in Medical Devices and IVDs: Propelling Africa's Trade and Development",
     },
   ];
   return (

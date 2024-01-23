@@ -19,20 +19,20 @@ const Events = () => {
     {
       category: "event",
       title:
-        "Event one, dolor sit amet consectetur adipisicing elit. Quidem sed quasi ullam maiores dolore sapiente dolorum ",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
+        "USTDA and CCA : Regulatory Convergence for Pharmaceuticals in East/Central Africa ",
+      description: "November 13, 2023 8:00 am - 4:30 pm EAT ",
     },
     {
       category: "event",
       title:
-        "Event two, dolor sit amet consectetur adipisicing elit. Quidem sed quasi ullam maiores dolore sapiente dolorum ",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
+        "USTDA and CCA : Regulatory Convergence for Medical Devices in East/Central Africa ",
+      description: "November 14, 2023 8:00 am - 4:30 pm EAT ",
     },
     {
       category: "event",
       title:
-        "Event three, dolor sit amet consectetur adipisicing elit. Quidem sed quasi ullam maiores dolore sapiente dolorum ",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
+        "MDRC / MEDAK Workshop ",
+      description: "November 20, 2023 8:00 am - 4:30 pm EAT ",
     },
   ];
 
@@ -40,20 +40,20 @@ const Events = () => {
     {
       category: "update",
       title:
-        "update one, dolor sit amet consectetur adipisicing elit. Quidem sed quasi ullam maiores dolore sapiente dolorum ",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
+        "Regulations and Trade: Shaping Industry through Government and Association Collaboration ",
+      description: "January 24, 2024 ",
     },
     {
       category: "update",
       title:
-        "update two, dolor sit amet consectetur adipisicing elit. Quidem sed quasi ullam maiores dolore sapiente dolorum ",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
+        "Revolutionizing Healthcare: The Impact of IVDs and Medical Devices on Global Health Systems ",
+      description: "January 15, 2024 ",
     },
     {
       category: "update",
       title:
-        "update three, dolor sit amet consectetur adipisicing elit. Quidem sed quasi ullam maiores dolore sapiente dolorum ",
-      description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. ",
+        "Transforming African Healthcare: Adaptive Regulatory Assessments for Timely, Customized Medical Innovation ",
+      description: "January 3, 2024 ",
     },
   ];
 
