@@ -61,7 +61,7 @@ const Footer = () => {
               <AppLogo white />
             </div>
             <div>
-              <p className="mb-2">Stay up to date with {siteData.title}.</p>
+              <p className="mb-2">Stay up to date with {siteData.title.toUpperCase()}.</p>
               <Link href={"/"} className="">
                 <Button variant={"destructive"} className="space-x-2 ">
                   <span>Join Us</span>

@@ -119,7 +119,7 @@ const MembersPage = () => {
   return (
     <div>
       <MiniHero
-        title={"Members and Partners"}
+        title={"Members & Partners"}
         subTitle={
           "MEDAK unites industry leaders, associates, and partners to advance healthcare innovation and collaboration."
         }
