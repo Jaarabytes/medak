@@ -63,6 +63,10 @@ const MembersPage = () => {
           imageURL: "/logos/members/belaire-international-ltd.svg",
         },
         {
+          title: "jeyflex",
+          imageURL: "/logos/members/jeyflex-logo.svg",
+        },
+        {
           title: "surgipharm",
           imageURL: "/logos/members/surgipharm-logo.svg",
         },
@@ -115,9 +119,9 @@ const MembersPage = () => {
   return (
     <div>
       <MiniHero
-        title={"Our Members"}
+        title={"Members and Partners"}
         subTitle={
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, iste"
+          "MEDAK unites industry leaders, associates, and partners to advance healthcare innovation and collaboration."
         }
       />
       <Container className="mb-10">
