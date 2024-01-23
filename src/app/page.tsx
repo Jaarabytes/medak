@@ -19,14 +19,14 @@ export default function Home() {
 
       <CtaOne
         // this is the title of the cta section
-        title={"Wow some new title."}
+        title={"Medical Technology Regulations in Kenya"}
         // this is the subtitle of the cta section
-        subTitle={"Lorem ipsum dolor"}
+        subTitle={"Our Work"}
         // this is the description of the cta section
         description={
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque in harum ea nam debitis, laudantium vero, incidunt corrupti omnis vel molestias dicta maiores dolor perferendis, alias ullam quam repudiandae eius!"
+          " MEDAK collaborates with key stakeholders across Kenya, advocating for top medtech priorities, enhancing regulatory frameworks, and ensuring broader access to innovative medical technologies for improved healthcare outcomes"
         }
-        // this ist image url of the image in the cta section
+        // this is image url of the image in the cta section
         imageURL={"/images/imageone.jpg"}
         // when the link prop is passed the button in the cta section becomes a link (obviously) also there is an additional onClick prop which makes the button just a normal button with a click fuction and for f**ks sake just use one at a time
         link={"/"}
@@ -35,10 +35,10 @@ export default function Home() {
         btnStyles="bg-green-700 hover:bg-green-900"
       />
       <CtaOne
-        title={" Lorem ipsum dolor sit amet consectetur adipisicing elit."}
-        subTitle={"subTitle"}
+        title={" News, Research and Policy Papers"}
+        subTitle={"Latest Updates"}
         description={
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque in harum ea nam debitis, laudantium vero, incidunt corrupti omnis vel molestias dicta maiores dolor perferendis, alias ullam quam repudiandae eius!"
+          " Discover cutting-edge insights and trends in our latest research, news, and policy papers, shaping the future of the medtech industry."
         }
         link={"/"}
         // this one has the left prop meaning the image moves from the side it was to the opposite side (very obvious again)
@@ -49,23 +49,23 @@ export default function Home() {
       <MembersAndPartners
         title={" Members and partners."}
         description={
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque in harum ea nam debitis, laudantium vero, incidunt corrupti omnis vel molestias dicta maiores dolor perferendis, alias ullam quam repudiandae eius!"
+          " Join in recognising the exceptional companies and individuals who are the foundation of MEDAK's achievements."
         }
       />
       <CtaTwo
-        title={" Lorem ipsum dolor sit amet consectetur adipisicing elit."}
-        subTitle={"subTitle"}
+        title={" Networking and Collaboration"}
+        subTitle={"Resource / Investor Relations / Business Development "}
         description={
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque in harum ea nam debitis, laudantium vero, incidunt corrupti omnis vel molestias dicta maiores dolor perferendis, alias ullam quam repudiandae eius!"
+          " MEDAK fosters dynamic networking and collaboration, uniting industry leaders to drive innovation, share knowledge, and shape the future of medical technology."
         }
         link={"/"}
         imageURL={"/images/imageone.jpg"}
       />
       <CtaTwo
-        title={" Lorem ipsum dolor sit amet consectetur adipisicing elit."}
-        subTitle={"subTitle"}
+        title={" Our Code of Ethics"}
+        subTitle={"Compliance"}
         description={
-          " Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque in harum ea nam debitis, laudantium vero, incidunt corrupti omnis vel molestias dicta maiores dolor perferendis, alias ullam quam repudiandae eius!"
+          " MEDAK's Code of Ethics champions integrity, guiding member companies in ethical healthcare interactions, fostering innovation, transparency, and commitment to compliance in medical technology practices."
         }
         link={"/"}
         left

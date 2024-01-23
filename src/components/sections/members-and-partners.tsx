@@ -41,6 +41,14 @@ const MembersAndPartners = ({
       imageURL: "/logos/members/Becton-Dickinson-logo.svg",
     },
     {
+      title: "bel-aire international",
+      imageURL: "/logos/members/belaire-international-ltd.svg",
+    },
+    {
+      title: "cepheid",
+      imageURL: "/logos/members/cepheid-logo.svg",
+    },
+    {
       title: "F & S",
       imageURL: "/logos/members/F&S-logo.svg",
     },
