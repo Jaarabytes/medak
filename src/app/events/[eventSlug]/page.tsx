@@ -1,9 +1,9 @@
 import Container from "@/components/container";
 import MiniHero from "@/components/sections/mini-hero";
 import React from "react";
-import { events } from "../page";
 import slugify from "slugify";
 import BlogContent from "@/app/blog/components/blog-content";
+import { events } from "@/site-data";
 
 const SingleEventPage = async ({
   params,

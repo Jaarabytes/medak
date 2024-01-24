@@ -1,9 +1,10 @@
 import Container from "@/components/container";
 import MiniHero from "@/components/sections/mini-hero";
 import React from "react";
-import { blogPosts } from "../page";
+
 import slugify from "slugify";
 import BlogContent from "../components/blog-content";
+import { blogPosts } from "@/site-data";
 
 const SingleBlogPage = async ({
   params,
