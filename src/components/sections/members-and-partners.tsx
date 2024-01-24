@@ -10,7 +10,7 @@ import Container from "../container";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import ImageContainer from "../ui/image-container";
+import ImageContaier from "../ui/image-container";
 
 const MembersAndPartners = ({
   title,
@@ -39,14 +39,6 @@ const MembersAndPartners = ({
     {
       title: "becton dickinson",
       imageURL: "/logos/members/Becton-Dickinson-logo.svg",
-    },
-    {
-      title: "bel-aire international",
-      imageURL: "/logos/members/belaire-international-ltd.svg",
-    },
-    {
-      title: "cepheid",
-      imageURL: "/logos/members/cepheid-logo.svg",
     },
     {
       title: "F & S",
@@ -130,7 +122,7 @@ const MembersAndPartners = ({
           {/* members slider section */}
           <div>
             <Swiper
-              slidesPerView={4}
+              slidesPerView={2}
               spaceBetween={30}
               pagination={{
                 clickable: true,
@@ -141,10 +133,25 @@ const MembersAndPartners = ({
               }}
               modules={[Autoplay]}
               className="mySwiper"
+              loop={true}
+              breakpoints={{
+                640: {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 4,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 5,
+                  spaceBetween: 50,
+                },
+              }}
             >
               {members.map((member, index) => (
-                <SwiperSlide key={index} className="bg-white">
-                  <ImageContainer
+                <SwiperSlide key={index} className="">
+                  <ImageContaier
                     alt={member.title}
                     ratio={16 / 9}
                     imageURL={member.imageURL}
@@ -156,7 +163,7 @@ const MembersAndPartners = ({
           {/* partners slider section */}
           <div className="mt-2">
             <Swiper
-              slidesPerView={4}
+              slidesPerView={2}
               spaceBetween={30}
               pagination={{
                 clickable: true,
@@ -165,12 +172,27 @@ const MembersAndPartners = ({
                 delay: 1000,
                 disableOnInteraction: false,
               }}
+              loop={true}
               modules={[Autoplay]}
               className="mySwiper"
+              breakpoints={{
+                640: {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 4,
+                  spaceBetween: 40,
+                },
+                1024: {
+                  slidesPerView: 4,
+                  spaceBetween: 50,
+                },
+              }}
             >
               {partners.map((partner, index) => (
-                <SwiperSlide key={index} className="bg-white">
-                  <ImageContainer
+                <SwiperSlide key={index} className="">
+                  <ImageContaier
                     alt={partner.title}
                     ratio={16 / 9}
                     imageURL={partner.imageURL}
