@@ -58,7 +58,7 @@ export default function Home() {
         description={" Medtech enhances healthcare in Kenya, offering tools from simple bandages to advanced MRI scans, ensuring effective diagnosis, treatment, and improved patient well-being."
         }
         link={"/about-the-industry"}
-        imageURL={"/images/imageone.jpg"}
+        imageURL={"/images/vertical-images/blood-pressure-testing.png"}
       />
       <CtaTwo
         title={" Our Code of Ethics"}
