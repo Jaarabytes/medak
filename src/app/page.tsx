@@ -12,7 +12,7 @@ export default function Home() {
       <Hero
         link="/about"
         text="Empowering Kenya's Medtech Industry Collaboratively."
-        imageURL="/images/horizontal images/MEDICS-LOOKING-AT-AN-X-RAY-IMAGE.jpg"
+        imageURL="/images/horizontal-images/MEDICS-LOOKING-AT-AN-X-RAY-IMAGE.jpg"
       />
 
       <About />
@@ -27,7 +27,7 @@ export default function Home() {
           " MEDAK collaborates with key stakeholders across Kenya, advocating for top medtech priorities, enhancing regulatory frameworks, and ensuring broader access to innovative medical technologies for improved healthcare outcomes."
         }
         // this is image url of the image in the cta section
-        imageURL={"/images/imageone.jpg"}
+        imageURL={"/images/horizontal-images/medak-ustda-meeting.png"}
         // when the link prop is passed the button in the cta section becomes a link (obviously) also there is an additional onClick prop which makes the button just a normal button with a click fuction and for f**ks sake just use one at a time
         link={"/what-we-do/regulatory-ethical-practices"}
         // the below prop (bgColor) can be used to change the background color of the cta section and the btnStyled one can be used to modify the styles or the appearance of the button in the cta section
