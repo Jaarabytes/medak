@@ -11,7 +11,7 @@ export default function Home() {
     <div className="space-y-2">
       <Hero
         link="/about"
-        text="Experience patient-centric innovation in Kenya."
+        text="Empowering Kenya's Medtech Industry Collaboratively."
         imageURL="/images/horizontal images/MEDICS-LOOKING-AT-AN-X-RAY-IMAGE.jpg"
       />
 
@@ -49,7 +49,7 @@ export default function Home() {
       <MembersAndPartners
         title={" Members & Partners"}
         description={
-          " Join in recognising the exceptional partners and companies who are the foundation of MEDAK's achievements."
+          " Collaborating with global leaders and local stakeholders to shape the future of medical technology in Africa."
         }
       />
       <CtaTwo

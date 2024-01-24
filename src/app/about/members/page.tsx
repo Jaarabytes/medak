@@ -1,7 +1,7 @@
 import Container from "@/components/container";
 import SectionHeading from "@/components/section-heading";
 import MiniHero from "@/components/sections/mini-hero";
-import ImageContaier from "@/components/ui/image-container";
+import ImageContainer from "@/components/ui/image-container";
 import React from "react";
 
 const MembersPage = () => {
@@ -135,7 +135,7 @@ const MembersPage = () => {
                   {member.items.map((item, index) => (
                     <div key={index} className="group">
                       <div className="bg-muted">
-                        <ImageContaier
+                        <ImageContainer
                           ratio={16 / 9}
                           alt="image"
                           imageURL={item.imageURL}
@@ -164,7 +164,7 @@ const MembersPage = () => {
               {partners.map((item, index) => (
                 <div key={index} className="group">
                   <div className="bg-muted">
-                    <ImageContaier
+                    <ImageContainer
                       ratio={16 / 9}
                       alt="image"
                       imageURL={item.imageURL}

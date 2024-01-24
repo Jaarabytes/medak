@@ -10,7 +10,7 @@ const JoinMedak = () => {
       <MiniHero
         title={"Join MEDAK"}
         subTitle={
-          "Elevate your company with unparalleled policy shaping, advocacy, and industry collaboration."
+          "Be part of a community that is shaping medical technology policy, advocacy and improving patient outcomes in Africa."
         }
       />
       <Container className="mb-10">

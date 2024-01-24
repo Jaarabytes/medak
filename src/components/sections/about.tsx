@@ -32,8 +32,7 @@ const About = () => {
     <section>
       <Container>
         <h1 className="text-xl md:text-2xl max-w-5xl mx-auto py-6 text-center font-semibold">
-          MEDAK promotes access to secure, cutting-edge medical technologies,
-          improving and safeguarding lives universally.
+          MEDAK unites stakeholders to enhance healthcare across Africa with advanced medical technologies and ethical practices.
         </h1>
 
         <div className="aspect-video bg-slate-600  mx-auto w-full md:w-9/12 md:-mb-[15em]">
@@ -50,11 +49,14 @@ const About = () => {
                 {siteData.title.toUpperCase()}'s Impact
               </h3>
               <p className="pr-10">
-                MEDAK revolutionizes healthcare in Kenya, promoting medical
-                technology to enhance diagnosis and treatment. With a robust
-                US$350M market and 4.06% growth, we address critical health
-                challenges and advocate for ethical, innovative practices under
-                harmonized standards. Discover our sector's profound impact.
+                MEDAK pioneers in advancing Kenya's healthcare, 
+                championing access to medical technology 
+                for improved diagnosis and treatment. 
+                With a thriving $350M market, 
+                we tackle health challenges, 
+                fostering ethical innovation 
+                and unified standards to enhance patient care 
+                and drive sector growth.
               </p>
               {/* <Button className="bg-white text-primary hover:bg-primary hover:text-white capitalize mt-8">
               our story
