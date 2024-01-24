@@ -7,7 +7,7 @@ const NetworkingAndCollaborationPage = () => {
       <MiniHero
         title={"Networking and Collaboration."}
         subTitle={
-          "MEDAK cultivates robust networking and collaboration, uniting global industry experts to drive innovation and shared progress."
+          "MEDAK fosters dynamic networking and collaboration, uniting industry leaders to drive innovation, share knowledge, and shape the future of medical technology."
         }
         bgImageURL="/images/imageone.jpg"
       />

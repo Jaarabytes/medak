@@ -53,12 +53,11 @@ export default function Home() {
         }
       />
       <CtaTwo
-        title={" Networking & Collaboration"}
-        subTitle={"Resource / Investor Relations / Business Development "}
-        description={
-          " MEDAK fosters dynamic networking and collaboration, uniting industry leaders to drive innovation, share knowledge, and shape the future of medical technology."
+        title={" Medtech Industry Overview "}
+        subTitle={"About Medical Technology "}
+        description={" Medtech enhances healthcare in Kenya, offering tools from simple bandages to advanced MRI scans, ensuring effective diagnosis, treatment, and improved patient well-being."
         }
-        link={"/what-we-do/networking-and-collaboration"}
+        link={"/about-the-industry"}
         imageURL={"/images/imageone.jpg"}
       />
       <CtaTwo
