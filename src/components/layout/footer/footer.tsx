@@ -58,10 +58,12 @@ const Footer = () => {
         <Container className=" py-20 flex flex-col md:flex-row space-y-8 md:space-y-0 md:items-center justify-between text-white">
           <div>
             <div className="mb-4">
-              <AppLogo white />
+              <AppLogo height={20} width={80} white />
             </div>
             <div>
-              <p className="mb-2">Stay up to date with {siteData.title.toUpperCase()}.</p>
+              <p className="mb-4 font-semibold">
+                Stay up to date with {siteData.title.toUpperCase()}.
+              </p>
               <Link href={"/"} className="">
                 <Button variant={"destructive"} className="space-x-2 ">
                   <span>Join Us</span>
@@ -72,20 +74,25 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="flex space-x-4">
+          <div className="flex space-x-8">
             <div>
+              <h4 className="font-semibold mb-2">Links</h4>
               {[
                 {
-                  title: "member center",
-                  link: "/",
+                  title: "about us",
+                  link: "/about",
+                },
+                {
+                  title: "about the industry",
+                  link: "/about-the-industry",
+                },
+                {
+                  title: "what we do",
+                  link: "/what-we-do",
                 },
                 {
                   title: "industry updates",
-                  link: "/",
-                },
-                {
-                  title: "contacts",
-                  link: "/",
+                  link: "/blog",
                 },
               ].map((item, index) => (
                 <FooterLink key={index} href={item.link}>
@@ -95,45 +102,13 @@ const Footer = () => {
             </div>
 
             <div>
-              {[
-                {
-                  title: "FAQs",
-                  link: "/",
-                },
-                {
-                  title: "events",
-                  link: "/",
-                },
-                {
-                  title: "updates",
-                  link: "/",
-                },
-              ].map((item, index) => (
-                <FooterLink key={index} href={item.link}>
-                  {item.title}
-                </FooterLink>
-              ))}
-            </div>
-
-            <div>
-              {[
-                {
-                  title: "our story",
-                  link: "/",
-                },
-                {
-                  title: "member center",
-                  link: "/",
-                },
-                {
-                  title: "about us",
-                  link: "/",
-                },
-              ].map((item, index) => (
-                <FooterLink key={index} href={item.link}>
-                  {item.title}
-                </FooterLink>
-              ))}
+              <h4 className="font-semibold mb-2">Address</h4>
+              <ul className="font-semibold text-sm">
+                <li>
+                  Phone us: <span className="">+234 000 000</span>
+                </li>
+                <li>P.O.Box: Nairobi Kenya</li>
+              </ul>
             </div>
           </div>
         </Container>

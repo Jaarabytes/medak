@@ -16,7 +16,13 @@ const ParagraphSection = ({
   small?: boolean;
 }) => {
   return (
-    <div className={cn("mb-8", contained && "max-w-4xl mx-auto", className)}>
+    <div
+      className={cn(
+        "mb-8 space-y-8",
+        contained && "max-w-4xl mx-auto",
+        className
+      )}
+    >
       {title && <SectionHeading small={small} heading={title} />}
       <div className="text-base">{children}</div>
     </div>

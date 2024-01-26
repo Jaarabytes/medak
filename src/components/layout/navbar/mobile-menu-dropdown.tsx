@@ -36,7 +36,7 @@ const MobileMenuDropdown = ({
         <button
           className={cn(
             triggerActive && "text-primary",
-            " uppercase font-bold text-sm hover:text-primary"
+            " uppercase font-bold hover:text-primary text-xl"
           )}
         >
           {title}
@@ -51,7 +51,7 @@ const MobileMenuDropdown = ({
               //   onClick={() => setOpen(false)}
             >
               <NavLink
-                className="group-hover:text-primary group-hover:underline"
+                className="group-hover:text-primary group-hover:underline text-xl"
                 href={link.href}
                 onClick={toggleMobileMenu}
                 isActive={

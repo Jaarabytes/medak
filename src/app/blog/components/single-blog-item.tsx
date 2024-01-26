@@ -1,6 +1,8 @@
+import { Button } from "@/components/ui/button";
 import { CardDescription } from "@/components/ui/card";
 import ImageContaier from "@/components/ui/image-container";
 import Link from "next/link";
+import { LuLinkedin, LuMail } from "react-icons/lu";
 import slugify from "slugify";
 
 const SingleBlogItem = ({
@@ -8,11 +10,13 @@ const SingleBlogItem = ({
   imageURL,
   shortDescription,
   link,
+  date,
 }: {
   title: string;
   imageURL: string;
   shortDescription: string;
   link: string;
+  date: string;
 }) => {
   return (
     <Link href={link}>
@@ -25,12 +29,13 @@ const SingleBlogItem = ({
         />
 
         <div>
-          <h2 className="font-semibold group-hover:text-primary mt-2">
+          <h2 className="font-semibold group-hover:text-primary  text-xl mt-2">
             {title}
           </h2>
-          <CardDescription className="mt-1">
-            {shortDescription.slice(0, 100) + "..."}
-          </CardDescription>
+          <div className="text-xs capitalize mt-2">
+            <p>author: Someone Else</p>
+            <p className="">{date}</p>
+          </div>
         </div>
       </div>
     </Link>

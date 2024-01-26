@@ -39,10 +39,12 @@ function MobileMenu() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle className="mb-4">Menu</SheetTitle>
+          <SheetTitle className="mb-4 text-2xl font-bold text-left">
+            Medak
+          </SheetTitle>
         </SheetHeader>
         <div>
-          <ul className="flex flex-col space-gap-4 ">
+          <ul className="flex flex-col space-gap-4 space-y-3">
             <li>
               <NavLink
                 isActive={pathname === "/"}
@@ -50,6 +52,7 @@ function MobileMenu() {
                 onClick={() => {
                   toggleMobileMenu();
                 }}
+                className="text-xl"
               >
                 home
               </NavLink>
@@ -93,6 +96,7 @@ function MobileMenu() {
                 onClick={() => {
                   toggleMobileMenu();
                 }}
+                className="text-xl"
               >
                 About the industry
               </NavLink>
@@ -105,6 +109,7 @@ function MobileMenu() {
                 onClick={() => {
                   toggleMobileMenu();
                 }}
+                className="text-xl"
               >
                 What we do
               </NavLink>
