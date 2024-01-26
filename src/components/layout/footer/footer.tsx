@@ -74,7 +74,7 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="flex space-x-8">
+          <div className="space-y-8 md:flex md:space-x-8">
             <div>
               <h4 className="font-semibold mb-2">Links</h4>
               {[
