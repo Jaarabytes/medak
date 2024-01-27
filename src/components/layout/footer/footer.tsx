@@ -74,9 +74,9 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="space-y-8 md:flex md:space-x-8">
-            <div>
-              <h4 className="font-semibold mb-2">Links</h4>
+          <div className="space-y-8 md:space-y-0 md:flex md:space-x-8 items-start">
+            <div className="">
+              <h4 className="font-semibold mb-2 uppercase space-y-2">Links</h4>
               {[
                 {
                   title: "about us",
@@ -101,13 +101,14 @@ const Footer = () => {
               ))}
             </div>
 
-            <div>
-              <h4 className="font-semibold mb-2">Address</h4>
-              <ul className="font-semibold text-sm">
+            <div className="">
+              <h4 className="font-semibold mb-2 uppercase">Address</h4>
+              <ul className="font-semibold text-sm space-y-2">
                 <li>
-                  Phone us: <span className="">+234 000 000</span>
+                  Phone us: <span className="">+254758074040</span>
                 </li>
-                <li>P.O.Box: Nairobi Kenya</li>
+                <li>P.O.Box: 19528-00202, Nairobi,Kenya</li>
+                <li>Mail: info@medak.or.ke</li>
               </ul>
             </div>
           </div>

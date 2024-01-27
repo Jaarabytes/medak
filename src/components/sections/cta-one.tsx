@@ -20,6 +20,7 @@ const CtaOne = ({
   bgColor,
   btnStyles,
   className,
+  btntext,
 }: {
   title: string;
   subTitle?: string;
@@ -31,6 +32,7 @@ const CtaOne = ({
   bgColor?: string;
   btnStyles?: string;
   className?: string;
+  btntext?: string;
 }) => {
   return (
     <section className={cn("bg-muted", className)}>
@@ -78,7 +80,8 @@ const CtaOne = ({
               {link && (
                 <Link href={link}>
                   <Button variant={"destructive"} className={cn(btnStyles)}>
-                    Click me
+                    {btntext ? btntext : "Read More"}
+
                     <div className="ml-1">
                       <LuArrowRight />
                     </div>
@@ -91,7 +94,7 @@ const CtaOne = ({
                   variant={"destructive"}
                   className={cn(btnStyles)}
                 >
-                  Click me
+                  {btntext ? btntext : "Read More"}
                   <div className="ml-1">
                     <LuArrowRight />
                   </div>

@@ -1,6 +1,10 @@
 import React from "react";
 import Container from "../container";
 import SingleEventCard from "../single-event-card";
+import { blogPosts, events } from "@/site-data";
+import Link from "next/link";
+import { slugifyBlogTitle } from "@/lib/utils";
+import { CardDescription, CardTitle } from "../ui/card";
 
 interface GroupTitleProps {
   children: React.ReactNode;
@@ -15,27 +19,6 @@ const GroupTitle: React.FC<GroupTitleProps> = ({ children }) => {
 };
 
 const Events = () => {
-  let events = [
-    {
-      category: "event",
-      title:
-        "USTDA and CCA : Regulatory Convergence for Pharmaceuticals in East/Central Africa ",
-      description: "November 13, 2023 8:00 am - 4:30 pm EAT ",
-    },
-    {
-      category: "event",
-      title:
-        "USTDA and CCA : Regulatory Convergence for Medical Devices in East/Central Africa ",
-      description: "November 14, 2023 8:00 am - 4:30 pm EAT ",
-    },
-    {
-      category: "event",
-      title:
-        "MDRC / MEDAK Workshop ",
-      description: "November 20, 2023 8:00 am - 4:30 pm EAT ",
-    },
-  ];
-
   let updates = [
     {
       category: "update",
@@ -65,13 +48,18 @@ const Events = () => {
           <GroupTitle>Events</GroupTitle>
 
           <div className="space-y-2">
-            {events.map((event, index) => (
-              <SingleEventCard
-                category={event.category}
-                description={event.description}
-                title={event.title}
-                key={index}
-              />
+            {events.slice(0, 3).map((event, index) => (
+              <Link key={index} href={`/`}>
+                <div className="group hover:shadow-lg py-2 pl-2">
+                  <CardDescription className="capitalize text-foreground">
+                    {"event"}
+                  </CardDescription>
+                  <CardTitle className="text-base text-primary group-hover:underline mb-2">
+                    {event.title}
+                  </CardTitle>
+                  <CardDescription>{event.date}</CardDescription>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -81,12 +69,13 @@ const Events = () => {
           <GroupTitle>Updates</GroupTitle>
 
           <div className="space-y-2">
-            {updates.map((update, index) => (
+            {blogPosts.slice(0, 3).map((update, index) => (
               <SingleEventCard
-                category={update.category}
-                description={update.description}
+                category={"blog"}
                 title={update.title}
                 key={index}
+                date={update.date}
+                author={update.author}
               />
             ))}
           </div>

@@ -13,6 +13,7 @@ const Resources = () => {
       imageURL: "/images/imageone.jpg",
       title: "Medical Device & IVD Registration Guidelines",
       category: "Regulatory Affairs",
+      link: "https://web.pharmacyboardkenya.org/download/guidelines-for-registration-of-medical-devices-including-in-vitro-diagnostics/",
       description:
         "PPB guidelines ensure stringent, transparent registration of medical devices and IVDs, prioritising safety.",
     },
@@ -20,6 +21,7 @@ const Resources = () => {
       imageURL: "/images/imageone.jpg",
       title: "Kenya Medical Devices Report",
       category: "category two",
+      link: "https://store.fitchsolutions.com/medical-devices/kenya-medical-devices-report",
       description:
         "Kenya's medical device market is set to grow, driven by imports, universal health coverage initiatives, and increasing investment opportunities.",
     },
@@ -27,6 +29,7 @@ const Resources = () => {
       imageURL: "/images/imageone.jpg",
       title: "MDRC Global Standards Enhancement",
       category: "Regulatory Affairs",
+      link: "https://www.standardsalliance-mdrc.org/africa/kenya/",
       description:
         "MDRC, fostering global collaboration, boosts medical device standards, ensuring safety, quality, and economic growth in developing regions, including Kenya.",
     },
@@ -34,6 +37,7 @@ const Resources = () => {
       imageURL: "/images/imageone.jpg",
       title: "Securing Africa: Local Manufacturing ",
       category: "Business development",
+      link: "/blog/local-manufacturing-securing-africas-future-through-the-implementation-of-international-standards",
       description:
         "Local Manufacturing in Medical Devices and IVDs: Propelling Africa's Trade and Development",
     },
@@ -52,6 +56,7 @@ const Resources = () => {
                 category={resource.category}
                 description={resource.description}
                 title={resource.title}
+                link={resource.link}
                 key={index}
               />
             );
