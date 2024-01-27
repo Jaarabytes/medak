@@ -32,7 +32,9 @@ const About = () => {
     <section>
       <Container>
         <h1 className="text-xl md:text-2xl max-w-5xl mx-auto py-6 text-center font-semibold">
-          MEDAK unites stakeholders to enhance healthcare across Africa with advanced medical technologies and ethical practices.
+          MEDAK is an organization that unites stakeholders to enhance
+          healthcare across Africa with advanced medical technologies and
+          ethical practices.
         </h1>
 
         <div className="aspect-video bg-slate-600  mx-auto w-full md:w-9/12 md:-mb-[15em]">
@@ -49,21 +51,18 @@ const About = () => {
                 {siteData.title.toUpperCase()}'s Impact
               </h3>
               <p className="pr-10">
-                MEDAK pioneers in advancing Kenya's healthcare, 
-                championing access to medical technology 
-                for improved diagnosis and treatment. 
-                With a thriving $350M market, 
-                we tackle health challenges, 
-                fostering ethical innovation 
-                and unified standards to enhance patient care 
-                and drive sector growth.
+                MEDAK pioneers in advancing Kenya's healthcare, championing
+                access to medical technology for improved diagnosis and
+                treatment. With a thriving $350M market, we tackle health
+                challenges, fostering ethical innovation and unified standards
+                to enhance patient care and drive sector growth.
               </p>
               {/* <Button className="bg-white text-primary hover:bg-primary hover:text-white capitalize mt-8">
               our story
             </Button> */}
             </div>
             <div className="col-span-12 md:col-span-7  ">
-              <div className="grid grid-cols-2 gap-2 md:gap-10 ">
+              <div className="grid grid-cols-2 gap-10 md:gap-10 ">
                 <AboutAction
                   icon={<FaPeopleCarry />}
                   title="55.6M"

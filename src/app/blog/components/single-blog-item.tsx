@@ -11,12 +11,14 @@ const SingleBlogItem = ({
   shortDescription,
   link,
   date,
+  author,
 }: {
   title: string;
   imageURL: string;
   shortDescription: string;
   link: string;
   date: string;
+  author: string;
 }) => {
   return (
     <Link href={link}>
@@ -33,7 +35,7 @@ const SingleBlogItem = ({
             {title}
           </h2>
           <div className="text-xs capitalize mt-2">
-            <p>author: Someone Else</p>
+            <p>author: {author}</p>
             <p className="">{date}</p>
           </div>
         </div>

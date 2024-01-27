@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 import React from "react";
 import NavLink from "./nav-link";
 import { usePathname } from "next/navigation";
+import { LuArrowRight } from "react-icons/lu";
 
 const MobileMenuDropdown = ({
   title,
@@ -35,15 +36,24 @@ const MobileMenuDropdown = ({
       <CollapsibleTrigger asChild>
         <button
           className={cn(
+            " flex items-center space-x-2",
             triggerActive && "text-primary",
             " uppercase font-bold hover:text-primary text-xl"
           )}
         >
-          {title}
+          <span>{title}</span>
+          <span
+            className={cn(
+              "transition-all ease-linear",
+              open ? "rotate-90" : ""
+            )}
+          >
+            <LuArrowRight />
+          </span>
         </button>
       </CollapsibleTrigger>
       <CollapsibleContent className="pl-4">
-        <ul>
+        <ul className="space-y-2">
           {links.map((link, index) => (
             <li
               key={index}

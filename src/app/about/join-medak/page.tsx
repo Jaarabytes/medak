@@ -24,23 +24,113 @@ const JoinMedak = () => {
             and MEDAK membership.
           </span>
         </ParagraphSection>
+
+        <ParagraphSection
+          title="Who does MEDAK Represent"
+          contained
+          className=""
+        >
+          <p>MEDAK's membership includes:</p>
+          <ul className="list-inside list-disc">
+            <li>
+              Major Multinational / Affiliate of multinational and local
+              manufacturers of medical technologies.
+            </li>
+            <li>Local and international trade associations</li>
+            <li>Wholesaler/ Distributor</li>
+            <li>Retailer</li>
+            <li>Retailer</li>
+            <li>Consultancy/ agency and emerging startups</li>
+          </ul>
+          <p>
+            With members spanning from multinational corporations to burgeoning
+            startups, MEDAK is the unified voice advocating for the medical
+            technology industry's interests in Kenya and beyond.
+          </p>
+        </ParagraphSection>
+
         <ParagraphSection contained className="">
           <span>
-          Who Does MEDAK Represent?
-          MEDAK’s membership includes:
-          Major Multinational / Affiliate of multinational and local manufacturers of medical technologies.
-          Local and international trade associations
-          Wholesaler/ Distributor
-          Retailer
-          Consultancy/ agency and emerging startups in the medical technology industry
+            Who Does MEDAK Represent? MEDAK’s membership includes: Major
+            Multinational / Affiliate of multinational and local manufacturers
+            of medical technologies. Local and international trade associations
+            Wholesaler/ Distributor Retailer Consultancy/ agency and emerging
+            startups in the medical technology industry
           </span>
         </ParagraphSection>
-        
+
         <ParagraphSection contained title="Membership Benefits" className="">
-          <SectionHeading
-            heading=" Types of Membership/ MEDAK categorises members as follows:"
-            small
-          />
+          <p>
+            Joining MEDAK aligns your company with a premier network of over 400
+            entities in the medical technology, diagnostic, and digital health
+            sectors, all benefiting from continuous representation in key Kenyan
+            healthcare policy spheres. Membership opens doors to a suite of
+            exclusive advantages, ensuring your company stays at the forefront
+            of industry developments:
+          </p>
+
+          <ul className="list-disc list-inside">
+            <li>
+              <span className="font-bold">Access to Industry Experts:</span>{" "}
+              Engage with MEDAK's seasoned professionals for direct support,
+              complex issue clarification, and strategic guidance, leveraging
+              their extensive knowledge of agency, policy, and industry
+              dynamics.
+            </li>
+            <li>
+              <span className="font-bold">
+                Insightful Policy & Business Intelligence:{" "}
+              </span>{" "}
+              Benefit from strategic insights and intelligence that help you
+              navigate regulatory, political, or market complexities, saving
+              costs and ensuring informed decision-making.
+            </li>
+            <li>
+              <span className="font-bold">
+                Product-Specific Working Groups:
+              </span>{" "}
+              Participate in specialized working groups to share strategies,
+              gain insights from peers, and stay abreast of upcoming industry
+              developments and innovations.
+            </li>
+            <li>
+              <span className="font-bold">
+                Exclusive Medtech Services & Resources:{" "}
+              </span>{" "}
+              Unlock a variety of benchmarking opportunities and member-only
+              services and resources, designed to optimize your operations and
+              competitive positioning.
+            </li>
+            <li>
+              <span className="font-bold">
+                Active Participation in Groups & Committees:{" "}
+              </span>{" "}
+              Engage in MEDAK's confidential forums, fostering open discussions
+              on industry challenges, potential solutions, and leveraging the
+              collective expertise of a diverse membership.
+            </li>
+            <li>
+              <span className="font-bold">Influential Representation:</span>{" "}
+              Gain a seat at the table to advocate for your business interests
+              and policy priorities alongside key industry stakeholders, peers,
+              and competitors.
+            </li>
+            <li>
+              <span className="font-bold">
+                Educational Events & Opportunities:
+              </span>{" "}
+              Access a wide spectrum of events and educational programs covering
+              key topics like regulatory submissions, payment, reimbursement,
+              and compliance, with exclusive discounts on these events and
+              MEDAK’s annual conferences.
+            </li>
+          </ul>
+        </ParagraphSection>
+
+        <ParagraphSection
+          contained
+          title="Types of Membership/ MEDAK categorises members as follows:"
+        >
           <p>
             The MEDAK Constitution provides for membership to be made up of:
           </p>

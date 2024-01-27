@@ -17,6 +17,8 @@ const CtaTwo = ({
   imageURL,
   onClick,
   left,
+  btnText,
+  downloadable = false,
 }: {
   title: string;
   subTitle: string;
@@ -25,6 +27,8 @@ const CtaTwo = ({
   imageURL: string;
   left?: boolean;
   onClick?: () => void;
+  btnText?: string;
+  downloadable?: boolean;
 }) => {
   return (
     <section className="py-10">
@@ -44,7 +48,7 @@ const CtaTwo = ({
                 )}
               >
                 <div className="md:hidden w-full">
-                  <AspectRatio ratio={16 / 9}>
+                  <AspectRatio ratio={7 / 10}>
                     <Image
                       src={imageURL}
                       alt="image"
@@ -66,18 +70,31 @@ const CtaTwo = ({
                   <p className="mt-4"> {description}</p>
                   <div className="mt-8">
                     {link && (
-                      <Link href={link}>
-                        <Button variant={"destructive"}>
-                          Click me
-                          <div className="ml-1">
-                            <LuArrowRight />
-                          </div>
-                        </Button>
-                      </Link>
+                      <>
+                        {downloadable ? (
+                          <a href={link} download>
+                            <Button variant={"destructive"}>
+                              {btnText ? btnText : "Read More"}
+                              <div className="ml-1">
+                                <LuArrowRight />
+                              </div>
+                            </Button>
+                          </a>
+                        ) : (
+                          <Link href={link}>
+                            <Button variant={"destructive"}>
+                              {btnText ? btnText : "Read More"}
+                              <div className="ml-1">
+                                <LuArrowRight />
+                              </div>
+                            </Button>
+                          </Link>
+                        )}
+                      </>
                     )}
                     {onClick && (
                       <Button onClick={onClick} variant={"destructive"}>
-                        Click me
+                        {btnText ? btnText : "Read More"}
                         <div className="ml-1">
                           <LuArrowRight />
                         </div>

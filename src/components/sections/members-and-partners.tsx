@@ -118,7 +118,7 @@ const MembersAndPartners = ({
       <Container>
         <h1 className="text-4xl font-bold mb-6">{title}</h1>
         <p className="mb-6 md:max-w-4xl">{description}</p>
-        <div className="bg-white">
+        <div className="">
           {/* members slider section */}
           <div>
             <Swiper
