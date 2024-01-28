@@ -33,30 +33,19 @@ const JoinMedak = () => {
           <p>MEDAK's membership includes:</p>
           <ul className="list-inside list-disc">
             <li>
-              Major Multinational / Affiliate of multinational and local
+              Major Multinational or Affiliate of multinational and local
               manufacturers of medical technologies.
             </li>
             <li>Local and international trade associations</li>
-            <li>Wholesaler/ Distributor</li>
-            <li>Retailer</li>
-            <li>Retailer</li>
-            <li>Consultancy/ agency and emerging startups</li>
+            <li>Wholesalers and Distributors</li>
+            <li>Retailers</li>
+            <li>Consultancies, agencies and emerging startups</li>
           </ul>
           <p>
             With members spanning from multinational corporations to burgeoning
             startups, MEDAK is the unified voice advocating for the medical
             technology industry's interests in Kenya and beyond.
           </p>
-        </ParagraphSection>
-
-        <ParagraphSection contained className="">
-          <span>
-            Who Does MEDAK Represent? MEDAK’s membership includes: Major
-            Multinational / Affiliate of multinational and local manufacturers
-            of medical technologies. Local and international trade associations
-            Wholesaler/ Distributor Retailer Consultancy/ agency and emerging
-            startups in the medical technology industry
-          </span>
         </ParagraphSection>
 
         <ParagraphSection contained title="Membership Benefits" className="">
@@ -95,7 +84,7 @@ const JoinMedak = () => {
             </li>
             <li>
               <span className="font-bold">
-                Exclusive Medtech Services & Resources:{" "}
+                Exclusive MedTech Services & Resources:{" "}
               </span>{" "}
               Unlock a variety of benchmarking opportunities and member-only
               services and resources, designed to optimize your operations and
