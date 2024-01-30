@@ -121,7 +121,7 @@ const Footer = () => {
           {/* links and copyright */}
           <div>
             <h6 className="text-sm font-semibold">
-              Copyright 2023 {siteData.title}
+              Copyright 2024 {siteData.title.toUpperCase()}
             </h6>
           </div>
 
