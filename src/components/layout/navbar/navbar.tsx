@@ -120,7 +120,9 @@ const Navbar = () => {
             </li>
 
             <li>
-              <Button>Login</Button>
+              <Link href={"/sign-up"}>
+                <Button>Sign Up</Button>
+              </Link>
             </li>
           </ul>
           <MobileMenu />

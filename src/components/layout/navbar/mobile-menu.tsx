@@ -23,6 +23,7 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 import MobileMenuDropdown from "./mobile-menu-dropdown";
+import Link from "next/link";
 
 function MobileMenu() {
   const pathname = usePathname();
@@ -135,7 +136,16 @@ function MobileMenu() {
                 ]}
               />
             </li>
-
+            <li>
+              <Link
+                href={"/sign-up"}
+                onClick={() => {
+                  toggleMobileMenu();
+                }}
+              >
+                <Button>Sign up</Button>
+              </Link>
+            </li>
             {/* {[
               {
                 title: "Home",
