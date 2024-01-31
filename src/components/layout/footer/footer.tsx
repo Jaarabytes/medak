@@ -35,7 +35,7 @@ const Footer = () => {
     },
     {
       icon: <LuLinkedin />,
-      link: "https://www.facebook.com",
+      link: "https://www.linkedin.com/in/medical-technology-industry-association-of-kenya-medak-458b491a3/",
     },
     {
       icon: <LuFacebook />,
