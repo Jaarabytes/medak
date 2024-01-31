@@ -18,7 +18,7 @@ const FocusPrioritiesPage = () => {
       <div className="space-y-16 my-16">
         <CtaOne
           title={
-            "Regulatory Ethical Practices & Medical Tech Regulations in Kenya"
+            "Policy Shaping & Advocacy"
           }
           description={
             "MEDAK enhances Kenya's medical tech regulations with ethical practices, global standard alignment, and responsive, innovative advocacy."
@@ -28,7 +28,7 @@ const FocusPrioritiesPage = () => {
         />
 
         <CtaOne
-          title={"Patient Safety"}
+          title={"Stakeholder Engagement & Industry Support"}
           description={
             "MEDAK champions patient safety, advocating for ethical standards and innovative medical solutions through rigorous regulatory compliance"
           }
@@ -38,7 +38,7 @@ const FocusPrioritiesPage = () => {
         />
 
         <CtaOne
-          title={"Training & Education"}
+          title={"Market Intelligence & Market Research"}
           description={
             "MEDAK aids members in mastering Kenya and Africa's regulatory landscape through comprehensive training, resources, and direct engagement."
           }

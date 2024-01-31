@@ -7,7 +7,7 @@ const PatientSafetyPage = () => {
   return (
     <div>
       <MiniHero
-        title={"Patient Safety"}
+        title={"Stakeholder Engagement & Industry Support"}
         subTitle={
           "MEDAK champions patient safety, advocating for ethical standards and innovative medical solutions through rigorous regulatory compliance."
         }

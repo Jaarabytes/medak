@@ -30,7 +30,7 @@ const JoinMedak = () => {
           contained
           className=""
         >
-          <p>MEDAK's membership includes:</p>
+          <p>MEDAK’s membership includes:</p>
           <ul className="list-inside list-disc">
             <li>
               Major Multinational or Affiliate of multinational and local
@@ -118,7 +118,7 @@ const JoinMedak = () => {
 
         <ParagraphSection
           contained
-          title="Types of Membership/ MEDAK categorises members as follows:"
+          title="Types of Membership"
         >
           <p>
             The MEDAK Constitution provides for membership to be made up of:
@@ -133,7 +133,7 @@ const JoinMedak = () => {
                 medical technology. <br />
                 For the purposes of registration and annual subscriptions, these
                 members are categorised as microenterprises, medium enterprises,
-                and macroenterprises
+                and macroenterprises.
               </p>
             </li>
             <li>

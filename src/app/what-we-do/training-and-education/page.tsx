@@ -7,7 +7,7 @@ const TrainingAndEducationPage = () => {
   return (
     <div>
       <MiniHero
-        title={"Training and education."}
+        title={"Market Intelligence & Market Research"}
         subTitle={
           "MEDAK fosters industry excellence by offering extensive training and educational opportunities, enhancing expertise and global collaboration."
         }
