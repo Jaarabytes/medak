@@ -105,9 +105,9 @@ const Footer = () => {
               <h4 className="font-semibold mb-2 uppercase">Address</h4>
               <ul className="font-semibold text-sm space-y-2">
                 <li>
-                  Phone us: <span className="">+254758074040</span>
+                  Phone Number: <span className="">+254 758 074 040</span>
                 </li>
-                <li>P.O.Box: 19528-00202, Nairobi,Kenya</li>
+                <li>P.O. Box: 19528-00202, Nairobi,Kenya</li>
                 <li>Mail: info@medak.or.ke</li>
               </ul>
             </div>
