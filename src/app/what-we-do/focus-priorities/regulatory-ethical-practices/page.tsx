@@ -6,7 +6,7 @@ const RegulatoryEthicalPracticesPage = () => {
     <div>
       <MiniHero
         title={
-          "Regulatory Ethical Practices/ Medical Tech Regulations in Kenya"
+          "Policy Shaping & Advocacy"
         }
         subTitle={
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore dolore corporis repudiandae assumenda fuga impedit illum corrupti"
