@@ -30,12 +30,12 @@ const FooterLink = ({ href, children }: { href: string; children: string }) => {
 const Footer = () => {
   const socialLinks = [
     {
-      icon: <LuYoutube />,
-      link: "https://www.facebook.com",
-    },
-    {
       icon: <LuLinkedin />,
       link: "https://www.linkedin.com/in/medical-technology-industry-association-of-kenya-medak-458b491a3/",
+    },
+    {
+      icon: <LuYoutube />,
+      link: "https://www.facebook.com",
     },
     {
       icon: <LuFacebook />,
