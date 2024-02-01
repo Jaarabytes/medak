@@ -64,7 +64,7 @@ const Footer = () => {
               <p className="mb-4 font-semibold">
                 Stay up to date with {siteData.title.toUpperCase()}.
               </p>
-              <Link href={"/"} className="">
+              <Link href={"/sign-up"} className="">
                 <Button variant={"destructive"} className="space-x-2 ">
                   <span>Join Us</span>
                   <span>
