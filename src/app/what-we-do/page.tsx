@@ -43,7 +43,7 @@ const FocusPrioritiesPage = () => {
             "MEDAK aids members in mastering Kenya and Africa's regulatory landscape through comprehensive training, resources, and direct engagement."
           }
           link="/what-we-do/training-and-education/"
-          imageURL={"/images/imageone.jpg"}
+          imageURL={"/images/vertical-images/market-research.png"}
         />
 
         <CtaOne

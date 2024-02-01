@@ -26,12 +26,12 @@ const Resources = () => {
         "Kenya's medical device market is set to grow, driven by imports, universal health coverage initiatives, and increasing investment opportunities.",
     },
     {
-      imageURL: "/images/imageone.jpg",
+      imageURL: "/images/vertical-images/global-standards.png",
       title: "MDRC Global Standards Enhancement",
       category: "Regulatory Affairs",
       link: "https://www.standardsalliance-mdrc.org/africa/kenya/",
       description:
-        "MDRC, fostering global collaboration, boosts medical device standards, ensuring safety, quality, and economic growth in developing regions, including Kenya.",
+        "Fostering global collaboration boosts medical device standards, ensuring safety, quality, and economic growth in developing regions, including Kenya.",
     },
     {
       imageURL: "/images/blog-images/medical-device-manufacturing.png",

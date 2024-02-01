@@ -436,8 +436,8 @@ export const blogPosts = [
 
 export const events = [
   {
-    title: "Lorem ipsum dolor sit amet",
-    date: "2021-01-01",
+    title: "Africa Supply Chain Forum",
+    date: "2024-01-31",
     slug: "lorem-ipsum-dolor-sit-amet",
     shortDescription:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, perferendis. Corporis suscipit amet qui magnam nam, tempora excepturi illo ",
@@ -445,8 +445,8 @@ export const events = [
     imageURL: "https://picsum.photos/seed/1/800/600",
   },
   {
-    title: "Lorem ipsum dolor sit amet",
-    date: "2021-01-01",
+    title: "Regulatory Convergence for Medical Devices in East/Central Africa",
+    date: "2023-11-14",
     slug: "lorem-ipsum-dolor-sit-amet",
     shortDescription:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, perferendis. Corporis suscipit amet qui magnam nam, tempora excepturi illo ",
@@ -454,26 +454,8 @@ export const events = [
     imageURL: "https://picsum.photos/seed/1/800/600",
   },
   {
-    title: "Lorem ipsum dolor sit amet",
-    date: "2021-01-01",
-    slug: "lorem-ipsum-dolor-sit-amet",
-    shortDescription:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, perferendis. Corporis suscipit amet qui magnam nam, tempora excepturi illo ",
-    content: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageURL: "https://picsum.photos/seed/1/800/600",
-  },
-  {
-    title: "Lorem ipsum dolor sit amet",
-    date: "2021-01-01",
-    slug: "lorem-ipsum-dolor-sit-amet",
-    shortDescription:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, perferendis. Corporis suscipit amet qui magnam nam, tempora excepturi illo ",
-    content: "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageURL: "https://picsum.photos/seed/1/800/600",
-  },
-  {
-    title: "Lorem ipsum dolor sit amet",
-    date: "2021-01-01",
+    title: "MEDAK MECOMED MDRC Meeting",
+    date: "2023-08-20",
     slug: "lorem-ipsum-dolor-sit-amet",
     shortDescription:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, perferendis. Corporis suscipit amet qui magnam nam, tempora excepturi illo ",
