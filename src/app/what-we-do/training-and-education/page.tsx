@@ -9,9 +9,9 @@ const TrainingAndEducationPage = () => {
       <MiniHero
         title={"Market Intelligence & Market Research"}
         subTitle={
-          "MEDAK fosters industry excellence by offering extensive training and educational opportunities, enhancing expertise and global collaboration."
+          "MEDAK enhances market intelligence through industry expertise integration, global association collaboration, and training opportunity facilitation."
         }
-        bgImageURL="/images/imageone.jpg"
+        bgImageURL="/images/horizontal-images/market-research.png"
       />
       <Container>
         <ParagraphSection contained>
@@ -30,6 +30,15 @@ const TrainingAndEducationPage = () => {
           partnership, which also strengthens sustainability, improves
           governance and oversight, encourages teamwork, and strengthens
           infrastructure and expertise.
+        </ParagraphSection>
+        <ParagraphSection contained>
+          MEDAK fosters market intelligence 
+          through collaborative efforts with global trade associations and industry professionals. 
+          This ensures informed adaptation to regulatory trends. 
+          With representation from diverse international associations, 
+          MEDAK provides access to worldwide expertise. 
+          This collaborative environment enables high-quality training, 
+          enhancing sustainability, governance, teamwork, and infrastructure expertise.
         </ParagraphSection>
       </Container>
     </div>

@@ -24,13 +24,13 @@ const FocusPrioritiesPage = () => {
             "MEDAK enhances Kenya's medical tech regulations with ethical practices, global standard alignment, and responsive, innovative advocacy."
           }
           link="/what-we-do/regulatory-ethical-practices/"
-          imageURL={"/images/imageone.jpg"}
+          imageURL={"/images/horizontal-images/medak-ustda-meeting.png"}
         />
 
         <CtaOne
           title={"Stakeholder Engagement & Industry Support"}
           description={
-            "MEDAK champions patient safety, advocating for ethical standards and innovative medical solutions through rigorous regulatory compliance"
+            "MEDAK promotes stakeholder involvement, offering industry backing to advance healthcare technology ethically and reliably."
           }
           left
           link="/what-we-do/patient-safety/"
@@ -40,7 +40,7 @@ const FocusPrioritiesPage = () => {
         <CtaOne
           title={"Market Intelligence & Market Research"}
           description={
-            "MEDAK aids members in mastering Kenya and Africa's regulatory landscape through comprehensive training, resources, and direct engagement."
+            "MEDAK facilitates market intelligence by integrating industry expertise, collaborating with global associations, and fostering training opportunities."
           }
           link="/what-we-do/training-and-education/"
           imageURL={"/images/vertical-images/market-research.png"}

@@ -9,39 +9,42 @@ const PatientSafetyPage = () => {
       <MiniHero
         title={"Stakeholder Engagement & Industry Support"}
         subTitle={
-          "MEDAK champions patient safety, advocating for ethical standards and innovative medical solutions through rigorous regulatory compliance."
+          "MEDAK engages stakeholders through collaboration, offering industry support to advance healthcare technology ethically and reliably."
         }
-        bgImageURL="/images/imageone.jpg"
+        bgImageURL="/images/horizontal-images/mecomed-mdrc-medak-stakeholder-engagement.png"
       />
 
       <Container>
         <ParagraphSection contained>
-          Patient safety sits at the heart of MEDAK's mission, seamlessly
-          integrating with the organization's commitment to enhancing access to
-          medical technology and IVDs and upholding the highest ethical
-          standards. Through diligent adherence to its Code of Conduct, MEDAK
-          ensures that every interaction and communication about medical devices
-          and IVDs is transparent, accurate, and ethically sound, directly
-          contributing to the safe and informed use of these technologies.
+          MEDAK actively engages stakeholders and provides industry support 
+          to foster dynamic networking and collaboration, 
+          driving innovation and shaping the future of medical technology. 
+          With a core focus on patient safety, 
+          MEDAK integrates seamlessly with its commitment to enhancing access to medical technology and in vitro diagnostics (IVDs), 
+          all while upholding the highest ethical standards.
         </ParagraphSection>
         <ParagraphSection contained>
-          The organization's robust ethical framework not only guides member
-          companies in maintaining integrity but also reinforces the reliability
-          and quality of medical technologies available in the market. This
-          trust is essential in ensuring that healthcare professionals and
-          patients have confidence in the medical devices and IVDs they rely on,
-          ultimately improving patient outcomes and healthcare experiences.
+          Through its robust ethical framework and diligent adherence to its Code of Conduct, 
+          MEDAK ensures that every interaction 
+          and communication regarding medical devices and IVDs 
+          is transparent, accurate, and ethically sound. 
+          This commitment not only guides member companies in maintaining integrity 
+          but also reinforces the reliability 
+          and quality of medical technologies in the market.
         </ParagraphSection>
         <ParagraphSection contained>
-          Moreover, MEDAK's efforts in advocating for patient access to medical
-          technology are intrinsically linked to patient safety. By promoting
-          the availability of advanced, high-quality medical devices and IVDs,
-          and ensuring that these technologies are accessible to all, MEDAK is
-          actively contributing to a healthcare environment where safety,
-          innovation, and accessibility go hand in hand. This holistic approach
-          underlines MEDAK's dedication to not just advancing healthcare
-          technology, but to ensuring that every step forward is taken with
-          patient safety and well-being as the foremost priority.
+          MEDAK's advocacy for patient access to medical technology 
+          is deeply intertwined with its dedication to patient safety. 
+          By promoting the availability of advanced, high-quality medical devices 
+          and IVDs and ensuring accessibility for all, 
+          MEDAK actively contributes to a healthcare environment where safety, innovation, and accessibility are interconnected.
+        </ParagraphSection>
+        <ParagraphSection contained>
+          Through stakeholder engagement initiatives and industry support programs, 
+          MEDAK facilitates collaboration among industry leaders, healthcare professionals, regulators, and patients. 
+          These efforts encourage knowledge sharing, drive innovation, 
+          and ensure that the development and deployment of medical technologies 
+          align with patient safety and well-being.
         </ParagraphSection>
       </Container>
     </div>

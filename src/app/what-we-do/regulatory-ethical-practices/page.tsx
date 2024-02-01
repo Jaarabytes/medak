@@ -13,7 +13,7 @@ const RegulatoryEthicalPracticesPage = () => {
         subTitle={
           "The innovative advocacy, global standards alignment, and ethics of MEDAK greatly improve Kenya's medical technology regulations. "
         }
-        bgImageURL="/images/imageone.jpg"
+        bgImageURL="/images/horizontal-images/medak-ustda-meeting.png"
       />
       <Container>
         <ParagraphSection contained>
