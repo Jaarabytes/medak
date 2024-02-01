@@ -24,6 +24,7 @@ import {
 } from "@/components/ui/collapsible";
 import MobileMenuDropdown from "./mobile-menu-dropdown";
 import Link from "next/link";
+import { siteData } from "@/site-data";
 
 function MobileMenu() {
   const pathname = usePathname();
@@ -41,7 +42,7 @@ function MobileMenu() {
       <SheetContent>
         <SheetHeader>
           <SheetTitle className="mb-4 text-2xl font-bold text-left">
-            Medak
+            {siteData.title.toUpperCase()}
           </SheetTitle>
         </SheetHeader>
         <div>
@@ -146,41 +147,6 @@ function MobileMenu() {
                 <Button>Sign up</Button>
               </Link>
             </li>
-            {/* {[
-              {
-                title: "Home",
-                href: "/",
-                isActive: pathname == "/",
-              },
-              {
-                title: "About",
-                href: "/about",
-                isActive: pathname == "/about",
-              },
-              {
-                title: "Portfolio",
-                href: "/portfolio",
-                isActive: pathname == "/portfolio",
-              },
-              {
-                title: "Contact",
-                href: "/contact",
-                isActive: pathname == "/contact",
-              },
-            ].map((item, index) => {
-              return (
-                <NavLink
-                  key={index}
-                  href={item.href}
-                  isActive={pathname == item.href}
-                  onClick={() => {
-                    setOpen(false);
-                  }}
-                >
-                  {item.title}
-                </NavLink>
-              );
-            })} */}
           </ul>
         </div>
       </SheetContent>
