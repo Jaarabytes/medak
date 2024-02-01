@@ -12,7 +12,7 @@ export default function Home() {
       <Hero
         link="/about"
         text="Empowering Kenya's Medtech Industry Collaboratively."
-        imageURL="/images/horizontal-images/MEDICS-LOOKING-AT-AN-X-RAY-IMAGE.jpg"
+        imageURL="/images/horizontal-images/medical-technology-stethoscope.png"
       />
 
       <About />
@@ -39,7 +39,7 @@ export default function Home() {
         link={"/blog"}
         // this one has the left prop meaning the image moves from the side it was to the opposite side (very obvious again)
         left
-        imageURL={"/images/imageone.jpg"}
+        imageURL={"/images/vertical-images/research-papers-files.png"}
       />
 
       <Resources />
@@ -70,7 +70,7 @@ export default function Home() {
         link={"/documents/MEDAK-CODE-OF-ETHICAL-BUSINESS-PRACTICE.pdf"}
         downloadable
         left
-        imageURL={"/images/imageone.jpg"}
+        imageURL={"/images/vertical-images/medak-code-of-ethics.png"}
       />
       <Events />
     </div>

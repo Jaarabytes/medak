@@ -10,7 +10,7 @@ import Link from "next/link";
 const Resources = () => {
   const resources = [
     {
-      imageURL: "/images/imageone.jpg",
+      imageURL: "/images/blog-images/medical-device-regulation.png",
       title: "Medical Device & IVD Registration Guidelines",
       category: "Regulatory Affairs",
       link: "https://web.pharmacyboardkenya.org/download/guidelines-for-registration-of-medical-devices-including-in-vitro-diagnostics/",
@@ -18,9 +18,9 @@ const Resources = () => {
         "PPB guidelines ensure stringent, transparent registration of medical devices and IVDs, prioritising safety.",
     },
     {
-      imageURL: "/images/imageone.jpg",
+      imageURL: "/images/vertical-images/medical-device-report.png",
       title: "Kenya Medical Devices Report",
-      category: "category two",
+      category: "Regulatory Affairs",
       link: "https://store.fitchsolutions.com/medical-devices/kenya-medical-devices-report",
       description:
         "Kenya's medical device market is set to grow, driven by imports, universal health coverage initiatives, and increasing investment opportunities.",
@@ -34,7 +34,7 @@ const Resources = () => {
         "MDRC, fostering global collaboration, boosts medical device standards, ensuring safety, quality, and economic growth in developing regions, including Kenya.",
     },
     {
-      imageURL: "/images/imageone.jpg",
+      imageURL: "/images/blog-images/medical-device-manufacturing.png",
       title: "Securing Africa: Local Manufacturing ",
       category: "Business development",
       link: "/blog/local-manufacturing-securing-africas-future-through-the-implementation-of-international-standards",

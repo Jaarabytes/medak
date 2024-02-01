@@ -36,7 +36,6 @@ const About = () => {
           healthcare across Africa with advanced medical technologies and
           ethical practices.
         </h1>
-
         <div className="aspect-video bg-slate-600  mx-auto w-full md:w-9/12 md:-mb-[15em]">
           <video src="/vid.mp4" className="h-full w-full" controls />
         </div>

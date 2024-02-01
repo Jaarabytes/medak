@@ -13,7 +13,7 @@ const FocusPrioritiesPage = () => {
         subTitle={
           "MEDAK focuses on ethical medtech advancement, regulatory harmonization, and improved healthcare outcomes in Kenya and Africa."
         }
-        bgImageURL="/images/imageone.jpg"
+        bgImageURL="/images/horizontal-images/networking.png"
       />
       <div className="space-y-16 my-16">
         <CtaOne
@@ -34,7 +34,7 @@ const FocusPrioritiesPage = () => {
           }
           left
           link="/what-we-do/patient-safety/"
-          imageURL={"/images/imageone.jpg"}
+          imageURL={"/images/vertical-images/mecomed-mdrc-medak-stakeholder-engagement.png"}
         />
 
         <CtaOne

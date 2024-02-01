@@ -12,6 +12,7 @@ const JoinMedak = () => {
         subTitle={
           "Be part of a community that is shaping medical technology policy, advocacy and improving patient outcomes in Africa."
         }
+        bgImageURL="/images/horizontal-images/join-medak.png"
       />
       <Container className="mb-10">
         <ParagraphSection contained className="">

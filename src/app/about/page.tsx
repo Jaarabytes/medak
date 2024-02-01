@@ -10,7 +10,7 @@ export default function AboutUsPage() {
         subTitle={
           "MEDAK unites healthcare stakeholders, advocating for medical technology innovation and ethical practices in Kenya and across Africa."
         }
-        bgImageURL="/images/imageone.jpg"
+        bgImageURL="/images/horizontal-images/medak-members.png"
       />
       <Container>
         <ParagraphSection contained className="">

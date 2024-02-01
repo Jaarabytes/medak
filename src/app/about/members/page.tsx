@@ -123,6 +123,7 @@ const MembersPage = () => {
         subTitle={
           "MEDAK unites industry leaders, associates, and partners to advance healthcare innovation and collaboration."
         }
+        bgImageURL="/images/horizontal-images/members-section.png"
       />
       <Container className="mb-10">
         <div>

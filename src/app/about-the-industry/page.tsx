@@ -11,7 +11,7 @@ export default function AboutTheIndustryPage() {
         subTitle={
           "The medical technology sector pioneers tools for diagnosis and treatment, elevating global healthcare and patient well-being."
         }
-        bgImageURL="/images/imageone.jpg"
+        bgImageURL="/images/horizontal-images/medical-device-industry.png"
       />
       <Container>
         <ParagraphSection contained>
@@ -48,7 +48,7 @@ export default function AboutTheIndustryPage() {
         description={
           "Medical devices are products, services or solutions that prevent, diagnose, monitor, treat and care for human beings."
         }
-        imageURL={"/images/imageone.jpg"}
+        imageURL={"/images/vertical-images/medical-device-mri.png"}
       />
 
       <Container className="mt-4">
@@ -83,7 +83,7 @@ export default function AboutTheIndustryPage() {
           "IVDs are non-invasive tests used on biological samples, e.g., blood, urine, or tissues, to determine the status of one’s health."
         }
         left
-        imageURL={"/images/imageone.jpg"}
+        imageURL={"/images/vertical-images/in-vitro-diagnostic-testtubes.png"}
       />
 
       <Container className="mt-4">

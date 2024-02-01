@@ -27,6 +27,7 @@ const OurLeadership = () => {
         subTitle={
           "The MEDAK team, comprised of experienced experts, diligently strives to advance the medtech sector, aiming to enhance patient health outcomes."
         }
+        bgImageURL="/images/horizontal-images/leadership-section.png"
       />
 
       <Container>
