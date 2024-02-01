@@ -11,7 +11,7 @@ export default function BlogPage() {
       <MiniHero
         title={"Our Blog"}
         subTitle={"Get the latest updates from us"}
-        bgImageURL="/images/imageone.jpg"
+        bgImageURL="/images/horizontal-images/blog.png"
       />
 
       <Container className="mb-10 mt-2">

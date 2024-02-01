@@ -17,7 +17,7 @@ const Hero = ({
   return (
     <section className="">
       <Container>
-        <div className="ralative">
+        <div className="relative">
           <div className="relative aspect-video">
             <Image
               fill
