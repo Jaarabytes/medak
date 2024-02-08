@@ -32,7 +32,7 @@ export default function HeroTwo({
                 <h1 className="text-4xl  md:text-6xl font-bold mb-4 text-center">
                   {title}
                 </h1>
-                <p className="max-w-4xl  mx-auto text-4xl  md:text-6xl text-center font-bold">
+                <p className="max-w-4xl  mx-auto text-4xl  md:text-5xl text-center font-bold">
                   {subTitle}
                 </p>
                 <br />
