@@ -10,17 +10,17 @@ import Resources from "@/components/sections/resources";
 export default function Home() {
   return (
     <div className="space-y-2">
-      <HeroTwo
+      {/* <HeroTwo
         title={"Medak"}
         subTitle={"Empowering Kenya's Medtech Industry Collaboratively."}
         bgImageURL="/images/horizontal-images/medical-technology-stethoscope.png"
-      />
+      /> */}
 
-      {/* <Hero
+      <Hero
         link="/about"
         text="Empowering Kenya's Medtech Industry Collaboratively."
         imageURL="/images/horizontal-images/medical-technology-stethoscope.png"
-      /> */}
+      />
 
       <About />
 
