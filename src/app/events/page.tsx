@@ -11,7 +11,7 @@ export default function EventsPage() {
     <>
       <MiniHero
         title={"Our Events"}
-        subTitle={"Get invited to the latest events from"}
+        subTitle={"Get invited to the latest events from us"}
         bgImageURL="/images/imageone.jpg"
       />
       <Container className="mb-10 mt-2">

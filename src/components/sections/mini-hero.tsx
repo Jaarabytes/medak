@@ -15,27 +15,27 @@ export default function MiniHero({
 }) {
   return (
     <div className="bg-muted pb-10">
-      <Container className="">
+      <div className="">
         <section
           className="relative min-h-[30em]  bg-cover bg-center bg-fixed flex items-center"
           style={{
             backgroundImage: bgImageURL ? `url('${bgImageURL}')` : "none",
           }}
         >
-          <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-70"></div>
+          <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-30"></div>
 
-          <div className="relative z-10 text-white  w-full px-2 md:px-20 py-10">
+          <div className="container mx-auto relative z-10 text-white  w-full  py-10">
             <>
-              <div className=" max-w-xl px-4">
+              <div className="  px-4">
                 <h1 className="text-4xl  md:text-6xl font-bold mb-6">
                   {title}
                 </h1>
-                <p className="text-base font-semibold">{subTitle}</p>
+                <p className="max-w-xl text-base font-semibold">{subTitle}</p>
               </div>
             </>
           </div>
         </section>
-      </Container>
+      </div>
     </div>
   );
 }
