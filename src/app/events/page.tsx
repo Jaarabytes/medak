@@ -4,7 +4,7 @@ import slugify from "slugify";
 import { events } from "@/site-data";
 import MiniHero from "@/components/sections/mini-hero";
 import Link from "next/link";
-import ImageContaier from "@/components/ui/image-container";
+import ImageContainer from "@/components/ui/image-container";
 
 export default function EventsPage() {
   return (
@@ -12,7 +12,7 @@ export default function EventsPage() {
       <MiniHero
         title={"Our Events"}
         subTitle={"Get invited to the latest events from us"}
-        bgImageURL="/images/imageone.jpg"
+        bgImageURL="/images/horizontal-images/medak-ustda-meeting.png"
       />
 
       <Container className="mb-10 mt-2">
@@ -20,7 +20,7 @@ export default function EventsPage() {
           {events.map((post, index) => (
             <Link href={`/events/${slugify(post.slug)}`} key={index}>
               <div className="group">
-                <ImageContaier
+                <ImageContainer
                   alt={post.title + `- image`}
                   imageURL={post.imageURL}
                   ratio={1 / 1}
