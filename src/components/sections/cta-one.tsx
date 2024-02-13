@@ -54,7 +54,7 @@ const CtaOne = ({
               />
             </div>
             <div className="md:hidden">
-              <AspectRatio className="" ratio={9 / 9}>
+              <AspectRatio className="" ratio={16 / 9}>
                 <Image
                   src={imageURL}
                   fill

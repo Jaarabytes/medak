@@ -74,7 +74,35 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <div className="space-y-8 md:space-y-0 md:flex md:space-x-8 items-start">
+          <div className="space-y-8 md:space-y-0 md:flex md:space-x-8 items-start md:justify-between w-8/12 ">
+            <div className="">
+              <h4 className="font-semibold mb-2 uppercase space-y-2">
+                About us
+              </h4>
+              {[
+                {
+                  title: "Who we are",
+                  link: "/about",
+                },
+                {
+                  title: "Our leadership",
+                  link: "/about/out-leadership",
+                },
+                {
+                  title: "members",
+                  link: "/about/members",
+                },
+                {
+                  title: "join medak",
+                  link: "/about/join-medak",
+                },
+              ].map((item, index) => (
+                <FooterLink key={index} href={item.link}>
+                  {item.title}
+                </FooterLink>
+              ))}
+            </div>
+
             <div className="">
               <h4 className="font-semibold mb-2 uppercase space-y-2">Links</h4>
               {[
@@ -116,10 +144,10 @@ const Footer = () => {
       </div>
 
       {/* bottom section with social links */}
-      <div className="bg-primary/90 py-4 text-white">
-        <Container className="flex flex-col md:flex-row justify-between md:items-center">
+      <div className="bg-primary py-4 text-white">
+        <Container className="flex flex-col md:flex-row space-y-4 md:space-y-0 justify-between md:items-center">
           {/* links and copyright */}
-          <div>
+          <div className="order-2 md:order-1 pl-4 md:pl-0 mt-6 md:mt-0">
             <h6 className="text-sm font-semibold">
               Copyright {new Date().getFullYear()}{" "}
               {siteData.title.toUpperCase()}
@@ -127,7 +155,7 @@ const Footer = () => {
           </div>
 
           {/* social links */}
-          <div className="flex space-x-1">
+          <div className="order-1 md:order-2 flex space-x-1 ">
             {socialLinks.map((socialLink, index) => (
               <Link href={socialLink.link} key={index}>
                 <Button className="hover:text-primary" variant={"ghost"}>
