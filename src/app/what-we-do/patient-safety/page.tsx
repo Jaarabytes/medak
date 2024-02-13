@@ -11,7 +11,7 @@ const PatientSafetyPage = () => {
         subTitle={
           "MEDAK engages stakeholders through collaboration, offering industry support to advance healthcare technology ethically and reliably."
         }
-        bgImageURL="/images/horizontal-images/mecomed-mdrc-medak-stakeholder-engagement.png"
+        bgImageURL="/images/horizontal-images/stakeholder-engagement-small.png"
       />
 
       <Container>

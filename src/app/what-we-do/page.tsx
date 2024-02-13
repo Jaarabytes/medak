@@ -34,7 +34,7 @@ const FocusPrioritiesPage = () => {
           }
           left
           link="/what-we-do/patient-safety/"
-          imageURL={"/images/vertical-images/mecomed-mdrc-medak-stakeholder-engagement.png"}
+          imageURL={"/images/vertical-images/stakeholder-engagement.png"}
         />
 
         <CtaOne
