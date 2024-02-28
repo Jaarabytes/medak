@@ -520,7 +520,7 @@ export const committees = [
     benefits: [
       "Synergy of a unified industry approach to ensure issues are escalated and discussed properly with authorities and awareness is created in alignment with international standards.",
       "Access to database information on the regulatory requirements per country.",
-      " First-hand members’ updates on the regulatory changes in the region.",
+      "First-hand members’ updates on the regulatory changes in the region.",
       "Access to the regulators via group delegations and regulatory symposium, a platform for cooperation between regulators and the industry.",
     ],
     members: [
@@ -552,7 +552,7 @@ export const committees = [
       {
         name: "Brenton Okubasu",
         image: "/images/headshots/brenton-okubasu.png",
-        bio: "",
+        bio: "Brenton Okubasu is an internationally certified Compliance and Ethics professional, recognized as a member of the American Society of Corporate Compliance and Ethics, and holds the distinction of being an Advocate of the High Court of Kenya and a member of the Law Society of Kenya. With a passion for instilling a robust compliance culture, Brenton focuses on implementing effective compliance programs and embedding ethical practices at the operational level of companies and third-party intermediaries (TPIs). He is dedicated to influencing and shaping the compliance landscape within industries and jurisdictions, leveraging expertise in areas such as healthcare and research compliance, legal compliance, privacy, tax compliance, audit and risk management, investigations, training, monitoring, corporate governance, and regulations including the FCPA, UK Bribery Act, Sapin II law, IFPMA, and Medtech Code.",
         linkedin: "https://www.linkedin.com/in/brenton-o-a044b154",
         email: "mailto:info@mail.com",
         position: "",
@@ -568,10 +568,10 @@ export const committees = [
       " Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae iste, sapiente voluptas a saepe cum sint nam amet deleniti",
     ],
     benefits: [
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae iste, sapiente voluptas a saepe cum sint nam amet deleniti",
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae iste, sapiente voluptas a saepe cum sint nam amet deleniti",
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae iste, sapiente voluptas a saepe cum sint nam amet deleniti",
-      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae iste, sapiente voluptas a saepe cum sint nam amet deleniti",
+      "Influence Regulatory Policies: Being part of the Government Affairs Committee allows you to actively participate in shaping regulatory policies related to the medical technology industry in Kenya. This involvement can help ensure that regulations are fair, reasonable, and supportive of industry growth.",
+      "Advocacy for Industry Interests: The committee provides a platform for collective advocacy on behalf of the medical technology sector. By joining, you can contribute to efforts aimed at promoting the interests of the industry, addressing challenges, and fostering a favorable business environment.",
+      "Access to Information: Committee members typically have access to the latest information and updates on government regulations, policies, and industry trends. This access can be valuable for staying informed about changes that may impact the medical technology sector.",
+      "Networking Opportunities: Joining the committee provides networking opportunities with other industry stakeholders, government officials, and professionals involved in the medical technology sector. This can facilitate collaboration, partnerships, and the exchange of ideas.",
     ],
     members: [
       {
@@ -610,7 +610,7 @@ export const committees = [
       {
         name: "Dr. Jerusha Kamau",
         image: "/images/headshots/jerusha-kamau.png",
-        bio: "",
+        bio: "Dr. Jerusha Kamau is a seasoned pharmaceutical consultant specializing in a wide array of regulatory affairs services such as Marketing Authorization Applications, renewals, and Variations, alongside Pharmacovigilance and drug safety, including QPPV services and LQPPV nomination to Health Authorities. With expertise in quality audits, training, trademark registration, clinical research, medical writing, regulatory strategy, drug development, and clinical trials, Dr. Kamau serves as a Consultant Pharmacist and Pharmacovigilance (QPPV) Consultant at Jeyflex Consultants Ltd. Her proficiency extends across Sub-Saharan Africa, particularly in Kenya, Tanzania, Rwanda, Uganda, Ethiopia, and Zambia, where she excels as a Regulatory Affairs and drug registration expert for both human and veterinary medicines as well as medical devices.",
         linkedin: "https://www.linkedin.com/in/jerusha-kamau-0a611070",
         email: "mailto:info@mail.com",
         position: "",
