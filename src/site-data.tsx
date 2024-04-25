@@ -535,6 +535,31 @@ export const committees = [
     ],
   },
   {
+    name: "Supply Chain",
+    priorities: [
+      "Actively engaging in shaping the regulatory environment in the region, by communicating the latest regulatory intelligence, and advocating industry challenges.",
+      "Building capacity initiatives with internal and external stakeholders: educational sessions and training for members and regulators.",
+      "Strengthening execution of the committee agreed upon objectives, mainly RA databank update and other internal projects.",
+      "Building the wider network by cooperating with other trade associations and Cross-Committee Collaboration on industry priorities.",
+    ],
+    benefits: [
+      "Synergy of a unified industry approach to ensure issues are escalated and discussed properly with authorities and awareness is created in alignment with international standards.",
+      "Access to database information on the regulatory requirements per country.",
+      "First-hand members’ updates on the regulatory changes in the region.",
+      "Access to the regulators via group delegations and regulatory symposium, a platform for cooperation between regulators and the industry.",
+    ],
+    members: [
+      {
+        name: "Esther Mokaya",
+        image: "/images/headshots/edwine-otwori.jpg",
+        bio: "",
+        linkedin: "https://www.linkedin.com/in/edwine-otwori",
+        email: "mailto:edwinotwori@gmail.com",
+        position: "",
+      },
+    ],
+  },
+  {
     name: "Legal & Compliance",
     priorities: [
       " Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae iste, sapiente voluptas a saepe cum sint nam amet deleniti",
