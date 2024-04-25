@@ -575,18 +575,10 @@ export const committees = [
     ],
     members: [
       {
-        name: "Steve Kipkoti",
-        image: "",
-        bio: "",
-        linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b",
-        email: "mailto:info@mail.com",
-        position: "",
-      },
-      {
-        name: "Mary Wangui",
-        image: "",
-        bio: "",
-        linkedin: "https://www.linkedin.com/in/nelly-bosire-7b0b7a1b",
+        name: "Dr. Wycliffe Choge",
+        image: "/images/headshots/wycliffe-choge.jpg",
+        bio: "Dr. Wycliffe Kipchoge is a highly motivated and proactive pharmacist from Kenya with extensive experience across community, hospital, and industrial pharmacy sectors. His remarkable career is underscored by his commitment to enhancing access to affordable, high-quality, efficacious, and safe health products and technologies throughout Kenya and the African continent. Adept in regulatory affairs, compliance, patient safety, pharmacovigilance, quality assurance, business development, and supply chain management, Dr. Kipchoge has dedicated his professional life to addressing and solving pressing public health challenges. His ultimate career goal is to make significant contributions to public health, particularly in the realm of pharmaceuticals, to ensure better health outcomes for communities across Africa.",
+        linkedin: "https://www.linkedin.com/in/wycliffekipropchoge",
         email: "mailto:info@mail.com",
         position: "",
       },
@@ -617,6 +609,7 @@ export const committees = [
       },
     ],
   },
+  
   {
     name: "Public Relations and Marketing",
     priorities: [

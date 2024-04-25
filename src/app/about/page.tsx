@@ -15,11 +15,10 @@ export default function AboutUsPage() {
       <Container>
         <ParagraphSection contained className="">
           <p>
-            MEDAK, the industry trade association for medical devices, imaging,
-            and diagnostics in Kenya, representing international medical
-            technology manufacturers, was formed in April 2019 due to a need for
-            an industry trade association to represent the medical device
-            industry in Kenya and across diverse regions in Africa.
+          MEDAK is the industry Trade Association for Medical Devices, Diagnostics, and Technology in Kenya, 
+          representing international Medical Technology manufacturers, 
+          was formed in April 2019 due to a need for an industry trade association 
+          to represent the medical device industry in Kenya and across diverse regions in Africa.
           </p>
         </ParagraphSection>
         <ParagraphSection contained title={"Mission and Vision"}>
