@@ -46,7 +46,7 @@ export default function AboutTheIndustryPage() {
         title={" What is a medical device"}
         // subTitle={"subTitle"}
         description={
-          "Medical devices are products, services or solutions that prevent, diagnose, monitor, treat and care for human beings."
+          "A Medical Device is a product, service or solution that prevent, diagnose, monitor, treat and care for human beings."
         }
         imageURL={"/images/vertical-images/medical-device-mri.png"}
       />

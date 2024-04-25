@@ -11,7 +11,7 @@ import ParagraphSection from "@/components/sections/paragraph";
 import { Button } from "@/components/ui/button";
 import { LuArrowLeft } from "react-icons/lu";
 import Link from "next/link";
-import ImageContaier from "@/components/ui/image-container";
+import ImageContainer from "@/components/ui/image-container";
 
 const SingleBlogPage = async ({
   params,
@@ -46,7 +46,7 @@ const SingleBlogPage = async ({
               </div>
             </ParagraphSection>
             <div className="w-9/12 md:w-1/2 mb-4 mx-auto">
-              <ImageContaier
+              <ImageContainer
                 imageURL={blogPost.imageURL}
                 ratio={1 / 1}
                 alt={blogPost.title + " image"}
