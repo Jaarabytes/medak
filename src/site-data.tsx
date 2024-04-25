@@ -550,8 +550,8 @@ export const committees = [
     ],
     members: [
       {
-        name: "Esther Mokaya",
-        image: "/images/headshots/edwine-otwori.jpg",
+        name: "Edwine Otwori",
+        image: "/images/headshots/edwine-otwori.jpeg",
         bio: "",
         linkedin: "https://www.linkedin.com/in/edwine-otwori",
         email: "mailto:edwinotwori@gmail.com",
@@ -601,7 +601,7 @@ export const committees = [
     members: [
       {
         name: "Dr. Wycliffe Choge",
-        image: "/images/headshots/wycliffe-choge.jpg",
+        image: "/images/headshots/wycliffe-choge.jpeg",
         bio: "Dr. Wycliffe Kipchoge is a highly motivated and proactive pharmacist from Kenya with extensive experience across community, hospital, and industrial pharmacy sectors. His remarkable career is underscored by his commitment to enhancing access to affordable, high-quality, efficacious, and safe health products and technologies throughout Kenya and the African continent. Adept in regulatory affairs, compliance, patient safety, pharmacovigilance, quality assurance, business development, and supply chain management, Dr. Kipchoge has dedicated his professional life to addressing and solving pressing public health challenges. His ultimate career goal is to make significant contributions to public health, particularly in the realm of pharmaceuticals, to ensure better health outcomes for communities across Africa.",
         linkedin: "https://www.linkedin.com/in/wycliffekipropchoge",
         email: "mailto:info@mail.com",
