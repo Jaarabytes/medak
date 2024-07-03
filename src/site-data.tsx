@@ -550,10 +550,10 @@ export const committees = [
     ],
     members: [
       {
-        name: "Edwine Otwori",
+        name: "Edwin Otwori",
         image: "/images/headshots/edwine-otwori.jpeg",
         bio: "",
-        linkedin: "https://www.linkedin.com/in/edwine-otwori",
+        linkedin: "https://www.linkedin.com/in/edwine-otwori-694a4866",
         email: "mailto:edwinotwori@gmail.com",
         position: "",
       },
