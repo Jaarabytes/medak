@@ -1,10 +1,6 @@
 "use client";
-import {
-  Collapsible,
-  CollapsibleContent,
-  CollapsibleTrigger,
-} from "@/components/ui/collapsible";
-import { cn } from "@/lib/utils";
+import { Collapsible , CollapsibleContent, CollapsibleTrigger} from "../../ui/collapsible";
+import { cn } from "../../../lib/utils";
 import React from "react";
 import NavLink from "./nav-link";
 import { usePathname } from "next/navigation";

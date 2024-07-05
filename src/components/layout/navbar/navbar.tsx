@@ -1,13 +1,13 @@
 "use client";
-import AppLogo from "@/components/app-logo";
+import AppLogo from "../../app-logo";
 import Image from "next/image";
 import Link from "next/link";
 import NavLink from "./nav-link";
 import MobileMenu from "./mobile-menu";
 import NavDropdown from "./nav-dropdown";
-import { Button } from "@/components/ui/button";
+import { Button } from "../../ui/button";
 import { usePathname } from "next/navigation";
-import { ModeToggle } from "@/components/ui/theme-switch";
+import { ModeToggle } from "../../ui/theme-switch";
 
 const Navbar = () => {
   const pathname = usePathname();

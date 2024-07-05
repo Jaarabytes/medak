@@ -1,7 +1,7 @@
 "use client";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Button } from "../../ui/button";
+import { Input } from "../../ui/input";
+
 import React from "react";
 
 import {
@@ -13,7 +13,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "../../ui/sheet";
 import NavLink from "./nav-link";
 import { usePathname } from "next/navigation";
 import { LuMenu } from "react-icons/lu";
@@ -21,10 +21,10 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "@/components/ui/collapsible";
+} from "../../ui/collapsible";
 import MobileMenuDropdown from "./mobile-menu-dropdown";
 import Link from "next/link";
-import { siteData } from "@/site-data";
+import { siteData } from "../../../site-data";
 
 function MobileMenu() {
   const pathname = usePathname();

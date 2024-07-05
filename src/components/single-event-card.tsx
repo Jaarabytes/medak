@@ -1,6 +1,6 @@
 import React from "react";
 import { CardDescription, CardTitle } from "./ui/card";
-import { slugifyBlogTitle } from "@/lib/utils";
+import { slugifyBlogTitle } from "../lib/utils";
 import Link from "next/link";
 
 const SingleEventCard = ({

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Poppins, Nunito } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/layout/navbar/navbar";
-import Footer from "@/components/layout/footer/footer";
-import { ThemeProvider } from "@/components/theme-provider";
+import Navbar from "../components/layout/navbar/navbar";
+import Footer from "../components/layout/footer/footer";
+import { ThemeProvider } from "../components/theme-provider";
+
 
 const poppins = Poppins({
   subsets: ["latin"],

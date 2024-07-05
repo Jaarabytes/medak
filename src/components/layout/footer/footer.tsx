@@ -1,7 +1,7 @@
-import AppLogo from "@/components/app-logo";
-import Container from "@/components/container";
-import { Button } from "@/components/ui/button";
-import { siteData } from "@/site-data";
+import AppLogo from "../../app-logo";
+import Container from "../../container";
+import { Button } from "../../ui/button";
+import { siteData } from "../../../site-data"; 
 import Link from "next/link";
 import React from "react";
 import {

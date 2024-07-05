@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../container";
-import { siteData } from "@/site-data";
+import { siteData } from "../../site-data";
 import { Button } from "../ui/button";
 import { CardTitle } from "../ui/card";
 import { LucideHome } from "lucide-react";

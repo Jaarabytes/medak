@@ -6,8 +6,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { cn } from "@/lib/utils";
+} from "../../ui/dropdown-menu";
+import { cn } from "../../../lib/utils";
 import Link from "next/link";
 import React from "react";
 import NavLink from "./nav-link";

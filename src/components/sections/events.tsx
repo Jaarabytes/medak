@@ -1,9 +1,9 @@
 import React from "react";
 import Container from "../container";
 import SingleEventCard from "../single-event-card";
-import { blogPosts, events } from "@/site-data";
+import { blogPosts, events } from "../../site-data";
 import Link from "next/link";
-import { slugifyBlogTitle } from "@/lib/utils";
+import { slugifyBlogTitle } from "../../lib/utils";
 import { CardDescription, CardTitle } from "../ui/card";
 
 interface GroupTitleProps {

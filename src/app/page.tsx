@@ -1,11 +1,11 @@
-import About from "@/components/sections/about";
-import CtaOne from "@/components/sections/cta-one";
-import CtaTwo from "@/components/sections/cta-two";
-import Events from "@/components/sections/events";
-import Hero from "@/components/sections/hero";
-import HeroTwo from "@/components/sections/hero-two";
-import MembersAndPartners from "@/components/sections/members-and-partners";
-import Resources from "@/components/sections/resources";
+import About from "../components/sections/about";
+import CtaOne from "../components/sections/cta-one";
+import CtaTwo from "../components/sections/cta-two";
+import Events from "../components/sections/events";
+import Hero from "../components/sections/hero";
+import HeroTwo from "../components/sections/hero-two";
+import MembersAndPartners from "../components/sections/members-and-partners";
+import Resources from "../components/sections/resources";
 
 export default function Home() {
   return (

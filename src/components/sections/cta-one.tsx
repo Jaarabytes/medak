@@ -5,7 +5,7 @@ import Container from "../container";
 import { Button } from "../ui/button";
 import Image from "next/image";
 import { LuArrowRight } from "react-icons/lu";
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils";
 import Link from "next/link";
 import { AspectRatio } from "@radix-ui/react-aspect-ratio";
 
